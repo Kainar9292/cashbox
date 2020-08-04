@@ -17,7 +17,6 @@
     border: none;
     width: 260px;
     height: 30px;
-    box-sizing: border-box;
     outline: none;
     color: #999;
     padding: 0 10px;
@@ -44,7 +43,6 @@
 /* ticker */
 
 .header__ticker {
-    box-sizing: border-box;
     width: 100%;
     height: 23px;
     white-space: nowrap;
@@ -89,7 +87,7 @@
 /* menu navigation */
 
 nav {
-  width: 1180px;  
+  max-width: 1180px;  
   height: 50px;
   display: flex;
   align-items: center;
@@ -139,7 +137,6 @@ nav {
     right: 27.5px;
     z-index: 10;
     font-size: 11px;
-    box-sizing: border-box;
     transition: all 0.5s ease-in-out;
     color: #ffffff;
 }
@@ -169,32 +166,89 @@ nav {
     background-color: #1abc9c;
 }
 
+/* Triangle*/
 
-
-/* Triangle for menu*/
-
-/* .header__triangle-left {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-} */
-
-.header__triangle-left::after {
+.triangle_left::after {
     content: '';
-    position: absolute;   /* Абсолютное позиционирование */
-    border: 5px solid transparent;  /* Прозрачные границы */
+    position: absolute;   
+    border: 5px solid transparent;  
     border-top: 5px solid #16a085;
     border-right: 5px solid #16a085;
     left: 0;
     bottom: -10px;
 }
 
-.header__triangle-right::after {
+.triangle_right::after {
     content: '';
-    position: absolute;   /* Абсолютное позиционирование */
+    position: absolute;   
 	border: 5px solid transparent;
 	border-left: 5px solid #16a085;
     border-top: 5px solid #16a085;
     right: 0;;
     bottom: -10px;
+}
+
+/* Triangle and sideline*/
+
+.triangle-L_side-header::after {
+    border-right: 5px solid #bf602a;
+    border-top: 5px solid #bf602a;
+    left: -10px;
+}
+
+.triangle-R_side-header::after {
+    border-left: 5px solid #bf602a;
+    border-top: 5px solid #bf602a;
+    right: -10px;
+}
+
+.sideline_Left {
+    position: absolute;
+    left: -10px;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #f27935;
+}
+
+.sideline_Right {
+    position: absolute;
+    right: -10px;
+    top: 0;
+    width: 10px;
+    height: 100%;
+    background-color: #f27935;
+}
+
+.sideline-color {
+    background-color: #1abc9c;
+}
+
+.triangle-L_side-main::after {
+    left: -10px;
+}
+
+.triangle-R_side-main::after {
+    right: -10px;
+}
+
+
+/*  footer*/
+
+.footer__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 96px;
+    color: rgb(94, 109, 129);
+    font-size: 13px;
+}
+
+.footer__wrapper a {
+    text-decoration: none;
+    color: rgb(94, 109, 129);
+}
+
+.footer__promo a {
+    color: #f27935;
 }
