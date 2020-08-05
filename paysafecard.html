@@ -1,0 +1,957 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>cashwox.net - Exchange Bitcoin</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <img src="icons/logo/cashwox_logo.png" alt="cahbox" class="header__img">
+                <form action="#" class="header__search">
+                    <input type="text" name="search">
+                    <button><img src="icons/search.png" alt=""></button>
+                </form>
+            </div>
+            <div class="header__ticker">
+                <span>
+                    Instant exchange Paysafecard to PayPal, Perfect Money, Bitcoin, Litecoin, Ethereum, Dash Webmoney,
+                    Skrill. Bitcoin
+                    exchange. Litecoin exchange. Ethereum exchange. Dash exchange. Cash out Paysafecard to Visa &
+                    Mastercard card.
+                </span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="index.html" class="header__link">HOME</a></li>
+                    <li class="header__item selected"><a href="paysafecard.html" class="header__link">Paysafecard exchange</a>
+                    </li>
+                    <li class="header__item"><a href="#" class="header__link">EXMO code Exchange</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Bitcoin exchange</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Ethereum exchange</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Litecoin exchange</a></li>
+                    <li class="header__item"><a href="#" class="header__link">Guarantee</a>
+                        <ul class="header__submenu">
+                            <li class="header__subitem"><a href="#" class="header__sublink"><span>Add coment</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__item"><a href="#" class="header__link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="triangle_left"></div>
+            <div class="triangle_right"></div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <main class="main__content">
+                <div class="exchange exchange__PSC">
+                    <div class="exchange__types">
+                        PaySafeCard → PayPal RUB, PayPal USD, PayPal EUR, PayPal GBP / PaySafeCard → Webmoney WMZ, WME, WMR / PaySafeCard →
+                        Skrill USD, Skrill EUR / PaySafeCard → Perfect Money USD, Perfect Money EUR / PaySafeCard → Privat24.
+                    </div>
+
+                    <div class="exchange__transactions">
+                        <form id="paysafecard_form" action="#" class="form-exchange">
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Paysafecard voucher pin <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="paysafecard_cardpin-1" size="4" class="paysafecard_pin" type="text" maxlength="4" required>
+                                    <input name="paysafecard_cardpin-2" size="4" class="paysafecard_pin" type="text" maxlength="4" required>
+                                    <input name="paysafecard_cardpin-3" size="4" class="paysafecard_pin" type="text" maxlength="4" required>
+                                    <input name="paysafecard_cardpin-4" size="4" class="paysafecard_pin" type="text" maxlength="4" required>
+                                    <img src="icons/logo/paysafecard_form.png" alt="paysafecard">
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Amount (min 20.00) <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="paysafecard_amount" type="text" maxlength ="100" required>
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Paysafecard currency <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <select name="paysafecard_currency">
+                                        <option>Paysafecard GBP</option>
+                                        <option>Paysafecard EUR</option>
+                                        <option>Paysafecard USD</option>
+                                        <option>Paysafecard AUD</option>
+                                        <option>Paysafecard BGN</option>
+                                        <option>Paysafecard CAD</option>
+                                        <option>Paysafecard CHF</option>
+                                        <option>Paysafecard CZK</option>
+                                        <option>Paysafecard DKK</option>
+                                        <option>Paysafecard HRK</option>
+                                        <option>Paysafecard HUF</option>
+                                        <option>Paysafecard KWD</option>
+                                        <option>Paysafecard NOK</option>
+                                        <option>Paysafecard NZD</option>
+                                        <option>Paysafecard MXN</option>
+                                        <option>Paysafecard PLN</option>
+                                        <option>Paysafecard RON</option>
+                                        <option>Paysafecard SAR</option>
+                                        <option>Paysafecard SEK</option>
+                                        <option>Paysafecard TRY</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Paysafecard location <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <select name="paysafecard_country">
+                                        <option>United Kingdom</option>
+                                        <option>Australia</option>
+                                        <option>Belgium</option>
+                                        <option>Bulgaria</option>
+                                        <option>Canada</option>
+                                        <option>Czech Republic</option>
+                                        <option>Denmark</option>
+                                        <option>Germany</option>
+                                        <option>Ireland</option>
+                                        <option>Spain</option>
+                                        <option>France</option>
+                                        <option>Croatia</option>
+                                        <option>Kuwait</option>
+                                        <option>Latvia</option>
+                                        <option>Lithuania</option>
+                                        <option>Luxsembourg</option>
+                                        <option>Hungary</option>
+                                        <option>Mexico</option>
+                                        <option>Malta</option>
+                                        <option>Norway</option>
+                                        <option>New Zealand</option>
+                                        <option>Austria</option>
+                                        <option>Poland</option>
+                                        <option>Portugal</option>
+                                        <option>Romania</option>
+                                        <option>Saudi Arabia</option>
+                                        <option>Switzerland</option>
+                                        <option>Slovenia</option>
+                                        <option>Slovakia</option>
+                                        <option>Finland</option>
+                                        <option>Sweden</option>
+                                        <option>Turkey</option>
+                                        <option>United States</option>
+                                        <option>Cyprus</option>
+                                    </select>
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Payment Method <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <select name="paysafecard_Method">
+                                        <option>PayPal GBP</option>
+                                        <option>PayPal EUR</option>
+                                        <option>PayPal USD</option>
+                                        <option>Skrill EUR</option>
+                                        <option>Skrill USD</option>
+                                        <option>Webmoney EUR</option>
+                                        <option>Webmoney USD</option>
+                                        <option>Perfect Money EUR</option>
+                                        <option>Perfect Money USD</option>
+                                        <option>Bitcoin (BTC)</option>
+                                        <option>Ethereum (ETH)</option>
+                                        <option>Litecoin (LTC)</option>
+                                        <option>DogeCoin (DOGE)</option>
+                                        <option>Dashcoin (DSH)</option>
+                                    </select>
+                                    <img src="icons/logo/PM_icon.png" alt="PM">
+                                    <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                    <img src="icons/logo/skrill.png" alt="skrill">
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                    <img src="icons/logo/neteller.png" alt="neteller">
+                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                    <img src="icons/logo/dash.png" alt="dash">
+                                    <img src="icons/logo/ethereum_form.png" alt="ethereum">
+                                    <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                                    <img src="icons/logo/dogecoin.png" alt="dogecoin">
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Your wallet account <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="paysafecard_wallet" class="paysafecard_wallet" size="3" type="text" maxlength="3">
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Your contact e-mail <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="paysafecard_email" size="20" class="paysafecard_email" type="email" maxlength="50">
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Security code <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <div class="g-recaptcha" style="display: block;" data-sitekey="6LdK9roZAAAAAKZ0B6p8MIeqCprKyJUV-mcMKeTc"></div>
+                                </div>
+                                
+                            </div>
+                            <div class="form-exchange__button">
+                                <div class="form-exchange__wrapper">
+                                    <button>EXCHANGE</button>
+                                    <a href="#">Need help with exchange?</a>
+                                </div>
+                            </div>
+                            
+
+                        </form>
+                    </div>
+
+                    <div class="history">
+                        <div class="history__wrapper">
+                            <div class="history__title">
+                                <img src="icons/logo/money.ico" class="history_icon" alt="money">
+                                Recent exchanges
+                            </div>
+                            <div class="history__information">
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        120 AUD PSC = 87.73 PayPal USD <br>
+                                        2020-03-16 18:10:47
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        100 GBP PSC = 0.0263 Bitcoin BTC <br>
+                                        2020-03-16 12:32:39
+                                    </div>
+                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        50 KWD PSC = 125.76 PayPal GBP <br>
+                                        2020-03-16 01:57:47
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        20 USD PSC = 19.20 PayPal USD <br>
+                                        2020-02-27 11:15:09
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        25 EUR PSC = 25.84 PayPal USD <br>
+                                        2020-02-27 00:27:03
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        50 GBP PSC = 61.41 Perfect Money USD <br>
+                                        2020-02-26 22:01:19
+                                    </div>
+                                    <img src="icons/logo/PM_icon.png" alt="PM">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        2000 CZK PSC = 1.2103 Litecoin LTC <br>
+                                        2020-02-21 00:08:41
+                                    </div>
+                                    <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        100 GBP PSC = 0.0132 Bitcoin BTC <br>
+                                        2020-02-20 21:23:39
+                                    </div>
+                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        350 PLN PSC = 0.0092 Bitcoin BTC <br>
+                                        2020-02-20 05:36:44
+                                    </div>
+                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        100 GBP PSC = 0.0131 Bitcoin BTC <br>
+                                        2020-02-17 21:05:52
+                                    </div>
+                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        500 RON PSC = 112.20 PayPal USD <br>
+                                        2020-02-17 13:03:56
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        1000 CZK PSC = 42.34 Skrill USD <br>
+                                        2019-02-10 11:07:09
+                                    </div>
+                                    <img src="icons/logo/skrill-icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        100 CAD PSC = 72.08 Webmoney WMZ <br>
+                                        2020-02-09 23:06:16
+                                    </div>
+                                    <img src="icons/logo/webmoney_icon.png" alt="Webmoney">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        50 GBP PSC = 62.20 Perfect Money USD <br>
+                                        2020-02-09 01:38:55
+                                    </div>
+                                    <img src="icons/logo/PM_icon.png" alt="PM">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        100 GBP PSC = 0.0174 Bitcoin BTC <br>
+                                        2019-11-27 15:02:39
+                                    </div>
+                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        1500 MNX PSC = 74.39 PayPal USD <br>
+                                        2019-11-25 20:37:40
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        250 PLN PSC = 56.16 PayPal EUR <br>
+                                        2019-11-25 19:32:34
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        300 NZD PSC = 199.18 PayPal USD <br>
+                                        2019-11-25 18:06:40
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                                    <div class="history__descrp">
+                                        200 PLN PSC = 44.93 PayPal EUR <br>
+                                        2019-11-25 16:35:34
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                </div>
+                                <span> &#60;&#60;&#62;&#62;</span>
+                            </div>
+                        </div>
+                        <div class="history__wrapper history__size">
+                            <div class="history__title">
+                                <img src="icons/logo/our_reserves.ico" class="history_icon" alt="money">
+                                Our reserves
+                            </div>
+                            <div class="history__information history__reserve">
+                                <div class="reserve_wrapper">
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                        <div class="history__descrp paypal">
+                                            1825.20 GBP
+                                        </div>
+                                    </div>                                    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                        <div class="history__descrp paypal">
+                                            2015.80 EUR
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                        <div class="history__descrp paypal">
+                                            2310.35 USD
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/skrill-icon.png" alt="skrill">
+                                        <div class="history__descrp skrill">
+                                            2369.00 EUR
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/skrill-icon.png" alt="skrill">
+                                        <div class="history__descrp skrill">
+                                            3920.00 USD
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                        <div class="history__descrp webmoney">
+                                            1750.55 WME
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                        <div class="history__descrp webmoney">
+                                            2180.25 WMZ
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PM_icon.png" alt="PM">
+                                        <div class="history__descrp perfectmoney">
+                                            3423.10 EUR
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PM_icon.png" alt="PM">
+                                        <div class="history__descrp perfectmoney">
+                                            6050.75 USD
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                        <div class="history__descrp bitcoin">
+                                            1.2906500 BTC
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/ethereum.ico" alt="Ethereum">
+                                        <div class="history__descrp ethereum">
+                                            62.501128 ETH
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/litecoin.png" alt="litecoin">
+                                        <div class="history__descrp litecoin">
+                                            110.213100 LTC
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/dogecoin.png" alt="dogecoin">
+                                        <div class="history__descrp dogecoin">
+                                            850066 DOGE
+                                        </div>
+                                    </div>    
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/dash.png" alt="dash">
+                                        <div class="history__descrp dash">
+                                            22.35655 DASH
+                                        </div>
+                                    </div>    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="notice">
+                        Exchange prepaid Paysafecard vouchers instantly to digital currencies of international payment systems PayPal, Perfect
+                        Money, Skrill (Moneybookers), Webmoney and cryptocurrencies Bitcoin or Litecoin, Ethereum. You can recharge instant
+                        accounts PayPal, Skrill, Perfect Money, Webmoney via Paysafe pin online 24/7. We convert PaySafeCard vouchers to BitCoin
+                        (BTC), LiteCoin (LTC), Ethereum (ETH) promptly.
+                    </div>
+
+                    <div class="voucher">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/GxchdrzRXZ4"></iframe>
+                        <p>
+                            Topping up a BitCoin, LiteCoin, Ethereum, DogeCoin, DushCoin, NETELLER, Skrill, Paypal, Webmoney account with PIN
+                            paysafecard
+                        </p>
+                        <p>
+                            BitCoin, LiteCoin, Ethereum, DogeCoin, DushCoin, NETELLER, Skrill, Paypal, Webmoney gives you access to thousands of
+                            websites for such services as quick, risk-free shopping and secure money transfers. You can top up your BitCoin,
+                            LiteCoin, Ethereum, DogeCoin, DushCoin, NETELLER, Skrill, Paypal, Webmoney account quickly and simply with PIN
+                            paysafecard. Simply sign up for PIN paysafecard and top up the balance of your BitCoin, LiteCoin, Ethereum, DogeCoin,
+                            DushCoin, NETELLER, Skrill, Paypal, Webmoney account.
+                        </p>
+                        <p>
+                            Top up your BitCoin, LiteCoin, Ethereum, DogeCoin, DushCoin, NETELLER, Skrill, Paypal, Webmoney account with PIN
+                            paysafecard in 3 steps:
+                        </p>
+                        <div class="voucher__wrapper">
+                            <img src="img/voucher/voucher_1.png" alt="voucher">
+                            <p class="voucher__item">Buy</p>
+                            <p class="voucher__descrp">Buy PIN paysafecard from your local sales outlet.</p>
+                            <img src="img/voucher/voucher_2.png" alt="voucher">
+                            <p class="voucher__item">Top up <a href="#">cashwox.net</a></p>
+                            <p class="voucher__descrp">Top up your <a href="#">cashwox form</a> with the paysafecard PINs.</p>
+                            <img src="img/voucher/voucher_3.png" alt="voucher">
+                            <p class="voucher__item">Top up wallet</p>
+                        </div>
+
+                        <p>
+                            Top up your BitCoin, LiteCoin, Ethereum, DogeCoin, DushCoin, NETELLER, Skrill, Paypal, Webmoney account <a href="#">using PIN paysafecard</a> 
+                            paysafecard: Select paysafecard as the payment method and enter your <a href="#">PIN paysafecard</a>, email and wallet.
+                        </p>
+
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на WMZ – где выгоднее обменять?</a> <br>
+                            С помощью нашего сервиса каждый пользователь может узнать, где можно поменять PaySafeCard > WMZ по наилучшему курсу.
+                            Выбирав наш обменник, стоит уделять внимание и резерву валюты WMZ. Все пункты обмена, предложенные на сайте, были
+                            досконально проверены администрацией. Для клиентов, которые впервые воспользовались cashwox.net, мы рекомендуем
+                            подробное видео, рассказывающее о функциях сервиса.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на Bitcoin (BTC) – где выгоднее обменять?</a> <br>
+                            Мы представляем обменнико, в котором вы можете довольно просто обменивать PaySafeCard > Bitcoin (BTC) по самому
+                            выгодному курсу в Рунете. При выборе оптимального курса, обратите внимание также и на резервы валюты Bitcoin. Каждый
+                            обменный пункт досконально проверен администрацией нашего сайта. Для посетителей, которые в первый раз пользуются нашим
+                            cashwox.net, предлагаем специальное видео, которое расскажет о возможностях сайта.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на WMR – где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам пункт обмена, в котором вы можете довольно просто менять PaySafeCard > WMR по выгодным курсам в
+                            Рунете. При подборе подходящего курса, обратите также внимание и на резерв валюты WMR. Наш онлайн-сервис прошел строгую
+                            проверку. Пользователям, посещающим наш пункт обмена впервые, рекомендован подробный видео-гайд, показывающий все
+                            возможные функции сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на WMZ – где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам пункт обмена, в котором вы можете довольно просто менять PaySafeCard > WMZ по выгодным курсам в
+                            Рунете. При подборе подходящего курса, обратите также внимание и на резерв валюты WMZ. Наш онлайн-сервис прошел строгую
+                            проверку. Пользователям, посещающим наш пункт обмена впервые, рекомендован подробный видео-гайд, показывающий все
+                            возможные функции сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на WME – где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам пункт обмена, в котором вы можете довольно просто менять PaySafeCard > WME по выгодным курсам в
+                            Рунете. При подборе подходящего курса, обратите также внимание и на резерв валюты WME. Наш онлайн-сервис прошел строгую
+                            проверку. Пользователям, посещающим наш пункт обмена впервые, рекомендован подробный видео-гайд, показывающий все
+                            возможные функции сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на PayPal RUB – где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам пункт обмена PaySafeCard > PayPal RUB, упорядоченные по обменному курсу. Подбирая выгодный курс,
+                            следует уделять внимание и резерву валюты PayPal RUR. Наш онлайн-сервис прошел строгую проверку. Пользователям,
+                            посещающим наш пункт обмена в первый раз, рекомендован подробный видео-гайд, показывающий все возможные функции сервиса
+                            cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на PayPal USD – где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам пункт обмена, в котором вы сможете легко обменять PaySafeCard на PayPal USD по наилучшему курсу в
+                            Рунете. При подборе подходящего курса обмена, обращайте внимание также и на резервы валюты PayPal USD. Наш онлайн-сервис
+                            прошел строгую проверку. Клиентам, которые посещают наш сайт в первый раз, рекомендован специальный видео-гайд,
+                            показывающий функции сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на PayPal EUR – где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам пункт обмена, меняющий PaySafeCard на PayPal EUR по наилучшим курсам обмена в Интернете. Выбирая
+                            обменник, необходимо уделять внимание и резерву валюты PayPal EUR. Наш онлайн-сервис был досконально проверен. Клиентам,
+                            посещающим наш пункт обмена в первый раз, рекомендован подробный видео-гайд, показывающий все возможные функции сервиса
+                            cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на PayPal GBP - где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам пункт обмена PaySafeCard на PayPal GBP, ранжированный по курсу обмена. Выбирая наш сайт для обмена,
+                            стоит уделять внимание также и резерву валюты PayPal GBP. Наш онлайн-сервис по обмену електронних вал, был тщательно
+                            проверен. Клиентам, которые посещают наш пункт обмена в первый раз, представлен подробный видео-гайд, показывающий
+                            функции сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на Skrill USD - где выгоднее обменять?</a> <br>
+                            Ниже в списке Мы предлагаем вам пункт обмена PaySafeCard > Skrill USD, ранжированный по обменному курсу. Определяя
+                            выгодный обменник, стоит обращать внимание на резерв валюты Skrill USD. Наш онлайн-сервис по обмену електронних вал, был
+                            тщательно проверен Интернет-сервисами. Пользователям, посещающим наш пункт обмена впервые, рекомендован специальный
+                            видео-гайд, показывающий функции сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на Skrill EUR - где выгоднее обменять?</a> <br>
+                            Ниже в списке Мы предлагаем вам пункт обмена, меняющий PaySafeCard на Skrill EUR по самым выгодным курсам обмена в
+                            Интернете. При определении оптимального курса, обращайте внимание также и на резервы валюты Skrill EUR. Наш
+                            онлайн-сервис по обмену електронних вал, был тщательно проверен Интернет-сервисами. Пользователям, посещающим наш пункт
+                            обмена впервые, рекомендован подробный видео-гайд, показывающий все функции сервиса cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на Neteller USD - где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам обменнык, в котором вы можете легко обменять PaySafeCard на Neteller USD по выгодным курсам в сети
+                            Интернет. Выбирая подходящий курс, стоит уделять внимание также и резерву валюты Neteller USD. Наш онлайн-сервис по
+                            обмену електронних вал, был тщательно проверен Интернет-сервисами. Пользователям, которые посещают наш сайт впервые,
+                            рекомендован подробный видео-гайд, показывающий возможные функции сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен PaySafeCard на Neteller EUR - где выгоднее обменять?</a> <br>
+                            Мы предлагаем вам обменнык, в котором вы можете легко обменять PaySafeCard на Neteller EUR по выгодным курсам в сети
+                            Интернет. Выбирая подходящий курс, стоит уделять внимание также и резерву валюты Neteller EUR. Наш онлайн-сервис по
+                            обмену електронних вал, был тщательно проверен Интернет-сервисами. Пользователям, которые посещают наш сайт впервые,
+                            рекомендован подробный видео-гайд, показывающий возможные функции сайта cashwox.net.
+                        </p>
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </main>
+
+            <aside class="sidebar__content">
+                <div class="sidebar__subheader"></div>
+                <div class="sidebar__main">
+                    <h3 class="sidebar__title">ALL RATES</h3>
+
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.87 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.96 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.05 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.21 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.95 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.05 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.21 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.95 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.05 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.21 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.95 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC GBP = 0.0131 BTC</div>
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC EUR = 0.0121 BTC</div>
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC USD = 0.0105 BTC</div>
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC GBP = 2.7912 LTC</div>
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC EUR = 2.5400 LTC</div>
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC USD = 2.2050 LTC</div>
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC GBP = 0.5126 ETH</div>
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC EUR = 0.4665 ETH</div>
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC USD = 0.4050 ETH</div>
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 7288.14 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 8009.05 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC =9225.72 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 8001.68 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 9216.88 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 7984.96 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 9197.71 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 7993.32 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 9207.05 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 34.75 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.19 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.99 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.15 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.95 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.10 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.86 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.11 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.90 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 189.43 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.98 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 239.54 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.78 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 239.30 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.38 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 238.85 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.58 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 239.08 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                        
+                    </div>
+
+                    <!-- Triangle -->
+                    <div class="sideline_Left sideline-color"></div>
+                    <div class="sideline_Right sideline-color"></div>
+
+                    <div class="triangle_left triangle-L_side-main"></div>
+                    <div class="triangle_right triangle-R_side-main"></div>
+                </div>
+                <div class="sidebar__footer">
+                    <hr>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#">Copyright MyCorp © 2020</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
