@@ -10,8 +10,9 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/slick.min.css">
-
+    <script src='https://www.google.com/recaptcha/api.js'></script>
 </head>
+
 <body>
     <header class="header">
         <div class="container">
@@ -24,23 +25,27 @@
             </div>
             <div class="header__ticker">
                 <span>
-                Instant exchange Paysafecard to PayPal, Perfect Money, Bitcoin, Litecoin, Ethereum, Dash Webmoney, Skrill. Bitcoin
-                exchange. Litecoin exchange. Ethereum exchange. Dash exchange. Cash out Paysafecard to Visa & Mastercard card.
+                    Instant exchange Paysafecard to PayPal, Perfect Money, Bitcoin, Litecoin, Ethereum, Dash Webmoney,
+                    Skrill. Bitcoin
+                    exchange. Litecoin exchange. Ethereum exchange. Dash exchange. Cash out Paysafecard to Visa &
+                    Mastercard card.
                 </span>
             </div>
         </div>
         <nav>
             <div class="container">
                 <ul class="header__menu">
-                    <li class="header__item selected"><a href="index.html" class="header__link">HOME</a></li>
-                    <li class="header__item"><a href="paysafecard.html" class="header__link">Paysafecard exchange</a></li>
-                    <li class="header__item"><a href="exmo.html" class="header__link">EXMO code Exchange</a></li>
+                    <li class="header__item"><a href="index.html" class="header__link">HOME</a></li>
+                    <li class="header__item"><a href="paysafecard.html" class="header__link">Paysafecard exchange</a>
+                    </li>
+                    <li class="header__item selected"><a href="exmo.html" class="header__link">EXMO code Exchange</a></li>
                     <li class="header__item"><a href="bitcoin.html" class="header__link">Bitcoin exchange</a></li>
                     <li class="header__item"><a href="ethereum.html" class="header__link">Ethereum exchange</a></li>
                     <li class="header__item"><a href="litecoin.html" class="header__link">Litecoin exchange</a></li>
                     <li class="header__item"><a href="guarantee.html" class="header__link">Guarantee</a>
                         <ul class="header__submenu">
-                            <li class="header__subitem"><a href="#" class="header__sublink"><span>Add coment</span></a></li>
+                            <li class="header__subitem"><a href="#" class="header__sublink"><span>Add coment</span></a>
+                            </li>
                         </ul>
                     </li>
                     <li class="header__item"><a href="faq.html" class="header__link">FAQ</a></li>
@@ -51,203 +56,199 @@
         </nav>
     </header>
 
-    <div class="carousel">
-        <div class="container">
-            <div class="overview__carousel">
-                <div>
-                    <img src="img/bg/slider_1.png" alt="slide_1" class="overview__img">
-                    <div class="overview__wrapper">
-                        <div class="overview__title">
-                            <a href="#"><span>ATTENTION! IMPORTANT !</span></a>
-                        </div>
-                        <div class="overview__descrp">
-                            All exchange transactions take place only on our website http://www.cashwox.net We have nothing to do with any other
-                            websites !!!
-                        </div>                        
-                    </div> 
-                </div>
-                <div>
-                    <img src="img/bg/slider_2.png" alt="slide_2" class="overview__img">
-                    <div class="overview__wrapper">
-                        <div class="overview__title">
-                            <a href="#">WE CONVERT THE VOUCHERS PAYSAFECARD IN:</a>
-                        </div>
-                        <div class="overview__descrp">PayPal GBP, PayPal EUR, PayPal USD, Perfect Money EUR, Perfect Money USD, Skrill EUR, Skrill USD, Webmoney WME, Webmoney
-                        WMZ and cryptocurrency Bitcoin (BTC), Ethereum (ETH) or Litecoin (LTC)
-                        </div>                        
-                    </div>
-                </div>
-                <div>
-                    <img src="img/bg/slider_3.png" alt="slide_3" class="overview__img">
-                    <div class="overview__wrapper">
-                        <div class="overview__title">
-                            <a href="#">WE ACCEPT CURRENCY OF PAYSAFECARD :</a>
-                        </div>
-                        <div class="overview__descrp">Pound(GBP), Euro(EUR) sterling, Dollar of the USA(USD), Australian dollar(AUD), Bulgarian
-                            lion(BGN), Canadian
-                            dollar(CAD), Swiss franc(CHF), Czech crown(CZK), Danish crown(DKK), the Hungarian forint(HUF) Croatian куна(HRK),
-                            Kuwaiti dinar(KWD), Mexican peso(MXN), Norwegian crown(NOK), Zelanian dollar(NZD), Polish zloty(PLN), Romanian
-                            leu(RON),
-                            Saudi Rial(SAR), stocky(SEK), Turkish lyre(TRY).
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container">
         <div class="content">
             <main class="main__content">
-                <div class="exchange">
-                    <div class="exchange__items">
-                        <a href="#">
-                            <div class="exchange__logo">
-                                <img src="icons/logo/paysafecard.png" class="exchange__logo" alt="paysafecard">
+                <div class="exchange exchange__PSC">
+                    <div class="exchange__types">
+                        EXMO → PayPal RUB, PayPal USD, PayPal EUR, PayPal GBP, Webmoney WMZ, WME, WMR, Skrill USD, Skrill EUR, Perfect Money
+                        USD, Perfect Money EUR, Bitcoin (BTC), Litecoin (LTE), Ethereum (ETH), DogeCoin (DOGE), Dashcoin (DSH).
+                    </div>
+
+                    <div class="exchange__transactions">
+                        <form id="paysafecard_form" action="#" class="form-exchange">
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">E-mail <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="exmo_email" size="50" class="form-exchange__email" type="email" maxlength="50">
+                                </div>
                             </div>
-                            <div class="exchange__button">
-                                <img src="icons/logo/exchange_button.png" alt="exchange_button">
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">EXMO check number <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="exmo_check" class="exmo_check" size="60" type="text" maxlength="60" required>
+                                </div>
                             </div>
-                        </a>
-                        <a href="#">
-                            <div class="exchange__logo">
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Amount <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="exmo_amount" type="text" maxlength="100" required>
+                                    <span>min 20.00 USD, 15 EUR, 1000 RUB, 0.01 BTC</span>
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">EXMO currency <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <select name="exmo_currency">
+                                        <option>EXMO EUR</option>
+                                        <option>EXMO USD</option>
+                                        <option>EXMO RUB</option>
+                                        <option>EXMO BTC</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Payment Method <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <select name="exmo_Method">
+                                        <option>Perfect Money USD</option>
+                                        <option>Perfect Money EUR</option>
+                                        <option>PayPal GBP</option>
+                                        <option>PayPal EUR</option>
+                                        <option>PayPal USD</option>
+                                        <option>Skrill EUR</option>
+                                        <option>Skrill USD</option>
+                                        <option>Webmoney WME</option>
+                                        <option>Webmoney WMZ</option>
+                                        <option>QIWI RUB</option>
+                                        <option>Bitcoin (BTC)</option>
+                                        <option>Litecoin (LTC)</option>
+                                        <option>DogeCoin (DOGE)</option>
+                                        <option>Ethereum (ETH)</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Your wallet account <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="exmo_wallet" class="form-exchange__wallet" size="3" type="text" maxlength="3">
+                                    <img src="icons/logo/PM_icon.png" alt="PM">
+                                    <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                    <img src="icons/logo/skrill.png" alt="skrill">
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                    <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                                    <img src="icons/logo/ethereum_form.png" alt="ethereum">
+                                    <img src="icons/logo/qiwi.jpg" alt="qiwi">
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Your contact e-mail <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="paysafecard_email" size="20" class="form-exchange__email" type="email" maxlength="50">
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Security code <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <div class="g-recaptcha" style="display: block;"
+                                        data-sitekey="6LdK9roZAAAAAKZ0B6p8MIeqCprKyJUV-mcMKeTc"></div>
+                                </div>
+                            </div>
+                            <div class="form-exchange__button">
+                                <div class="form-exchange__wrapper">
+                                    <button>EXCHANGE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="exmo">
+                        <div class="exmo__item">
+                            <div class="exmo__title">
                                 <img src="icons/logo/EXMO.png" alt="EXMO">
+                                <span>EXMO EUR</span>
                             </div>
-                            <div class="exchange__button">
-                                <img src="icons/logo/exchange_button.png" alt="exchange_button">
+                            <div class="exmo__descrp">
+                                100 EXMO EUR = 98.2 Perfect Money EUR<br>
+                                100 EXMO EUR = 111.46 Perfect Money USD<br>
+                                100 EXMO EUR = 78.97 PayPal GBP<br>
+                                100 EXMO EUR = 91.00 PayPal EUR<br>
+                                100 EXMO EUR = 103.31 PayPal USD<br>
+                                100 EXMO EUR = 93.00 SKrill EUR<br>
+                                100 EXMO EUR = 105.58 SKrill USD<br>
+                                100 EXMO EUR = 95.50 Webmoney WME (EUR)<br>
+                                100 EXMO EUR = 108.42 Webmoney WMZ (USD)<br>
+                                100 EXMO EUR = 7310.42 Qiwi RUB<br>
+                                100 EXMO EUR = 0.0275737 Bitcoin (BTC)<br>
+                                100 EXMO EUR = 2.2464710 Litecoin (LTC)<br>
+                                100 EXMO EUR = 0.7724051 Ethereum (ETH)<br>
                             </div>
-                        </a>
-
-                        <a href="#">
-                            <div class="exchange__logo">
-                                <img src="icons/logo/bitcoin.png" alt="bitcoin">
-                            </div>
-                            <div class="exchange__button">
-                                <img src="icons/logo/exchange_button.png" alt="exchange_button">
-                            </div>
-                        </a>
-
-                        <a href="#">
-                            <div class="exchange__logo">
-                                <img src="icons/logo/ethereum.png" alt="ethereum">
-                            </div>
-                            <div class="exchange__button">
-                                <img src="icons/logo/exchange_button.png" alt="exchange_button">
-                            </div>
-                        </a>
-                        <a href="#">
-                            <div class="exchange__logo">
-                                <img src="icons/logo/litecoin.png" alt="litecoin">
-                            </div>
-                            <div class="exchange__button">
-                                <img src="icons/logo/exchange_button.png" alt="exchange_button">
-                            </div>
-                        </a>
-                    </div>
-
-                    <div class="exchange__descrp">
-                        <div class="exchange__direction">
-                            <h4 class="exchange__title">
-                                How to exchange the vouchers of Paysafecard to PayPal, Perfect Money, Skrill, Webmoney, BitCoin, Ethereum, LiteCoin?
-                            </h4>
-                            <p>
-                                We pass to the menu in the division of <a href="#" class="exchange__paysafecard">Exchange Paysafecard</a>, we prescribe the code of voucher in the first line
-                                (Paysafecard voucher pin), choose the face value of voucher of Paysafecard (Amount), further currency of
-                                voucher(Paysafecard currency), from the enumerated list we choose the country of voucher (Paysafecard location), then
-                                payment system where it is needed to translate money (Payment Method), we enter the account (Your wallet account), e -
-                                mail (Your contact e - mail), verification code and we push button <a href="#" class="exchange__exchenge">EXCHENGE</a>.
-
-                            </p>
-                            <h4 class="exchange__title">
-                                We accept currency of Paysafecard :
-                            </h4>
-                            <p>
-                                Pound(GBP), Euro(EUR) sterling, Dollar of the USA(USD), Australian dollar(AUD), Bulgarian lion(BGN), Canadian
-                                dollar(CAD), Swiss franc(CHF), Czech crown(CZK), Danish crown(DKK), the Hungarian forint(HUF) Croatian куна(HRK),
-                                Kuwaiti dinar(KWD), Mexican peso(MXN), Norwegian crown(NOK), Zelanian dollar(NZD), Polish zloty(PLN), Romanian leu(RON),
-                                Saudi Rial(SAR), stocky(SEK), Turkish lyre(TRY).
-                            </p>
-                            <h4 class="exchange__title">
-                                We convert the vouchers of Paysafecard in:
-                            </h4>
-                            <p>
-                                PayPal GBP, PayPal EUR, PayPal USD, Perfect Money EUR, Perfect Money USD, Skrill EUR, Skril USD, Webmoney WME, Webmoney
-                                WMZ and cryptocurrency Bitcoin (BTC), Ethereum (ETH) or Litecoin (LTC).
-                            </p>
-                            <p>
-                                And also cashwox.net is a comfortable method to show out your Bitcoin (BTC), Litecoin (LTC), DogeCoin (DOGE), Dash
-                                (DASH), Ethereum (ETH), NETELLER, Skrill, Webmoney.
-                            </p>
                         </div>
+                        <div class="exmo__item">
+                            <div class="exmo__title">
+                                <img src="icons/logo/EXMO.png" alt="EXMO">
+                                <span>EXMO USD</span>
+                            </div>
+                            <div class="exmo__descrp">
+                                100 EXMO USD = 86.44 Perfect Money EUR<br>
+                                100 EXMO USD = 100.46 Perfect Money USD<br>
+                                100 EXMO USD = 65.19 PayPal GBP<br>
+                                100 EXMO USD = 76.22 PayPal EUR<br>
+                                100 EXMO USD = 88.31 PayPal USD<br>
+                                100 EXMO USD = 85.02 SKrill EUR<br>
+                                100 EXMO USD = 96.58 SKrill USD<br>
+                                100 EXMO USD = 84.81 Webmoney WME (EUR)<br>
+                                100 EXMO USD = 96.34 Webmoney WMZ (USD)<br>
+                                100 EXMO USD = 6519.39 Qiwi RUB<br>
+                                100 EXMO USD = 0.0248113 Bitcoin (BTC)<br>
+                                100 EXMO USD = 2.0827010 Litecoin (LTC)<br>
+                                100 EXMO USD = 0.6951739 Ethereum (ETH)<br>
+                            </div>
+                        </div>
+                        <div class="exmo__item">
+                            <div class="exmo__title">
+                                <img src="icons/logo/EXMO.png" alt="EXMO">
+                                <span>EXMO RUB</span>
+                            </div>
+                            <div class="exmo__descrp">
+                                1000 EXMO RUB = 13.49 Perfect Money EUR<br>
+                                1000 EXMO RUB = 15.29 Perfect Money USD<br>
+                                1000 EXMO RUB = 10.27 PayPal GBP<br>
+                                1000 EXMO RUB = 11.85 PayPal EUR<br>
+                                1000 EXMO RUB = 13.45 PayPal USD<br>
+                                1000 EXMO RUB = 85.02 SKrill EUR<br>
+                                1000 EXMO RUB = 96.58 SKrill USD<br>
+                                1000 EXMO RUB = 8.11 Webmoney WME (EUR)<br>
+                                1000 EXMO RUB = 9.34 Webmoney WMZ (USD)<br>
+                                1000 EXMO RUB = 1000 Qiwi RUB<br>
+                                1000 EXMO RUB = 0.0388726 Bitcoin (BTC)<br>
+                                1000 EXMO RUB = 0.3230869 Litecoin (LTC)<br>
+                                1000 EXMO RUB = 0.1068839 Ethereum (ETH)<br>
+                            </div>
+                        </div>
+                        <div class="exmo__item">
+                            <div class="exmo__title">
+                                <img src="icons/logo/EXMO.png" alt="EXMO">
+                                <span>EXMO BTC</span>
+                            </div>
+                            <div class="exmo__descrp">
+                                0.01 EXMO BTC = 34.44 Perfect Money EUR <br>
+                                0.01 EXMO BTC = 39.21 Perfect Money USD<br>
+                                0.01 EXMO BTC = 22.63 PayPal GBP<br>
+                                0.01 EXMO BTC = 31.85 PayPal EUR<br>
+                                0.01 EXMO BTC = 36.19 PayPal USD<br>
+                                0.01 EXMO BTC = 32.62 SKrill EUR<br>
+                                0.01 EXMO BTC = 37.07 SKrill USD<br>
+                                0.01 EXMO BTC = 33.70 Webmoney WME (EUR)<br>
+                                0.01 EXMO BTC = 38.34 Webmoney WMZ (USD)<br>
+                                0.01 EXMO BTC = 2481 Qiwi RUB<br>
+                                0.01 EXMO BTC = 0.00938072 Bitcoin (BTC)<br>
+                                0.01 EXMO BTC = 0.80869741 Litecoin (LTC)<br>
+                                0.01 EXMO BTC = 0.2688390 Ethereum (ETH)<br>
+                            </div>
+                        </div>
+                    </div>   
 
-                    </div>
+
+
+
+
+
                 </div>
-                <div class="variation">
-                    <h5 class="variation__title">
-                        Available forms of payment
-                    </h5>
-                    <div class="variation__wrapper">
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/advcash.png" alt="advcash">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/amazon.png" alt="amazon">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/bitcoin.png" alt="bitcoin">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/ethereum.png" alt="ethereum">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/litecoin.png" alt="litecoin">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/okpay.png" alt="okpay">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/payeer.png" alt="payeer">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/payza.png" alt="payza">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/perfectmoney.png" alt="perfectmoney">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/sepa.png" alt="sepa">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/skrill.png" alt="skrill">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/visa-mastercard.png" alt="visa-mastercard">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/webmoney.png" alt="webmoney">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/paysafecard.png" alt="paysafecard">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/paypal.png" alt="paypal">
-                        </div>
-                        <div class="variation__item">
-                            <img src="icons/logo/payments/privat24.jpg" alt="privat24">
-                        </div>
-                    </div>
-                </div>
-
             </main>
-            
+
             <aside class="sidebar__content">
-                <div class="sidebar__header">
-                    <div class="triangle_left triangle-L_side-header">
-                    </div>
-                    <div class="triangle_right triangle-R_side-header">
-                    </div>
-                    <div class="sideline_Left"></div>
-                    <div class="sideline_Right"></div>
-                </div>
                 <div class="sidebar__subheader"></div>
                 <div class="sidebar__main">
                     <h3 class="sidebar__title">ALL RATES</h3>
@@ -544,6 +545,7 @@
                             <div class="sidebar__descrp">1.00 ETH = 239.08 PM USD</div>
                             <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
                         </div>
+                        
                     </div>
 
                     <!-- Triangle -->
@@ -575,7 +577,6 @@
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
-
     <script src="js/script.js"></script>
 </body>
 

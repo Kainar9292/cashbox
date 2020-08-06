@@ -148,7 +148,7 @@ body {
 }
 
 .main__content {
-    max-width: 835px;
+    width: 835px;
     display: block;
     padding: 20px 20px 100px 20px;
     background-color: #ffffff;

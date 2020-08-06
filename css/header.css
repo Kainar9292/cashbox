@@ -101,7 +101,6 @@ nav {
 .header__menu {
     display: flex;
     justify-content: start;
-    position: relative;
     height: 50px;
     padding: 0;
     margin: 0;
@@ -110,6 +109,7 @@ nav {
 
 .header__item {
     display: flex;
+    position: relative;
     align-items: center;
     text-transform: uppercase;
     padding: 0 20px;
@@ -129,17 +129,19 @@ nav {
 .header__link {
     text-decoration: none;
     color: #ffffff;
+    height: 100%;
+    line-height: 50px;
 }
 
 .header__submenu {
     display: none;
     position: absolute;
     background-color: #16a085;
-    width: 220px;
+    width: 150px;
     height: 55px;
     padding: 0 10px;
     top: 50px;
-    right: 27.5px;
+    left: 0;
     z-index: 10;
     font-size: 11px;
     transition: all 0.5s ease-in-out;

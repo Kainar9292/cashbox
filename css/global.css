@@ -14,11 +14,18 @@
         border-color: grey;
 }
 
+
+/*Form*/
+
 .form-exchange {
     display: flex;
     flex-direction: column;
     margin: 1px;
+}
 
+.form-exchange__text {
+    height: 30px;
+    line-height: 30px;
 }
 
 .form-exchange__item {
@@ -28,16 +35,15 @@
     border: 1px solid;
     font-size: 13px;
     border: 1px inset #dbe1e8;
+    color: #999;
 }
 
 .form-exchange__name {
     text-align: start;
     display: inline-block;
-    line-height: 30px;
     width: 35%;
     height: 100%;
     padding: 4px;
-    border-right: 0.5px inset #dbe1e8;
 }
 
 .form-exchange__name span {
@@ -80,17 +86,72 @@
     margin: 0 1px;
 }
 
-.paysafecard_pin {
-    height: 30px;
+.form-exchange__input span {
+    color: #1e90ff;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 3px;
 }
 
-.paysafecard_email {
+.form-exchange__input textarea {
+    color: #999;
+    text-decoration: none;
+    border: 1px solid #dbe1e8;
+    height: 120px;
+    width: 400px;
+    outline: none;
+    padding: 8px;
+}
+
+.form-exchange__email {
     width: 176px !important;
 }
 
-.paysafecard_wallet {
+.form-exchange__wallet {
     width: 176px !important;
 }
+
+.exmo_check {
+    width: 300px !important;
+}
+
+.exmo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; 
+    margin-top: 20px;
+    border: 1px solid grey;
+    
+}
+
+.exmo__item {
+    border: 3px double grey;
+    width: 50%;
+    font-size: 13px;
+    line-height: 17px;
+}
+
+.exmo__title {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin: 15px 0;
+}
+
+.exmo__title img {
+    height: 56px;
+}
+
+.exmo__title span {
+    color: #0099cc;
+}
+
+.exmo__descrp {
+    text-align: center;
+    margin: 15px 0;
+}
+
+
 
 .form-exchange__button {
     display: flex;
@@ -134,11 +195,14 @@
     text-decoration: underline;
 }
 
+
+/*voucher*/
+
 .history {
     display: flex;
     justify-content: space-between;
     border: 1px solid;
-    padding: 20px;
+    padding: 30px;
     margin: 20px 0;
 }
 
@@ -168,7 +232,7 @@
     border: 1px solid;
     font-size: 18px;
     padding: 10px;
-    min-height: 1065px;
+    height: 93%;
 }
 
 .history__information span {
@@ -200,13 +264,16 @@
     align-items: center;
 }
 
+.history__flex {
+    align-items: flex-start;
+}
+
 .reserve_wrapper {
     width: 100%;
 }
 
 .reserve_item {
     justify-content: start;
-    margin: 20px 0;
 }
 
 .paypal {
@@ -245,6 +312,14 @@
     color: #0033ff;
 }
 
+.neteller {
+    color: #66cc66;
+}
+
+.privat24 {
+    color: #339900;
+}
+
 .notice {
     text-align: start;
     color: #FFA07A;
@@ -253,6 +328,7 @@
 
 .voucher {
     font-size: 14px;
+    margin: 40px 0;
 }
 
 .voucher a {
@@ -288,4 +364,132 @@
     text-align: start;
 }
 
+.attention {
+    font-size: 16px;
+    font-family: 'Times New Roman',sans-serif;
+    color: #ff0000;
+    text-align: start;
+}
 
+.attention__title {
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.attention__descrp span {
+    color: #000000;
+}
+
+.attention__pay {
+    text-align: center;
+    color: #800000;
+    margin: 10px 0;
+}
+
+.attention__key {
+    color: #5e6d81;
+    margin: 15px 0 25px;
+}
+
+.attention__pay span {
+    color: #ff0000;
+}
+
+.attention__pay img {
+    display: block;
+    margin: 0 auto;
+}
+
+.guarantee {
+    margin-top: 22px;
+}
+
+.main__faq {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 25px;
+    font-size: 18px;
+}
+
+.main__contacts {
+    font-family: Arial, sans-serif;
+    font-weight: 700;
+    padding: 4px;
+}
+
+.main__contacts span {
+    color: rgb(30, 144, 255);
+    font-weight: normal;
+}
+
+.main__icq span {
+    color: rgb(50, 205, 50);
+}
+
+.faq {
+    font-family: Tahoma;
+}
+
+.form-faq {
+    font-size: 13px;
+}
+
+.faq__input {
+    flex-direction: column;
+    border-left: 0;
+}
+
+.faq__input input {
+    width: 400px;
+    margin: 0;
+}
+
+.faq__input select {
+    width: 150px;
+    font-size: 13px;
+}
+
+.faq__name span {
+    color: red;
+}
+
+.faq__button {
+    margin-left: 4px;
+}
+
+/*instruction list*/
+
+.instruction {
+    text-align: center;
+    font-size: 13px;
+    margin-top: 30px;
+}
+
+.instruction a {
+    color: #1abc9c;
+    text-decoration: none;
+}
+
+.instruction a:hover {
+    text-decoration: underline;
+}
+
+.instruction img {
+    display: block;
+    /* margin: 0 auto; */
+    width: 730px;
+}
+
+.instruction__title {
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.instruction__text {
+    text-align: start;
+}
+
+.instruction__text span {
+    color: #0066ff;
+    font-weight: 700;
+}

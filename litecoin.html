@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>cashwox.net - Exchange Bitcoin</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/slick.min.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__logo">
+                <img src="icons/logo/cashwox_logo.png" alt="cahbox" class="header__img">
+                <form action="#" class="header__search">
+                    <input type="text" name="search">
+                    <button><img src="icons/search.png" alt=""></button>
+                </form>
+            </div>
+            <div class="header__ticker">
+                <span>
+                    Instant exchange Paysafecard to PayPal, Perfect Money, Bitcoin, Litecoin, Ethereum, Dash Webmoney,
+                    Skrill. Bitcoin
+                    exchange. Litecoin exchange. Ethereum exchange. Dash exchange. Cash out Paysafecard to Visa &
+                    Mastercard card.
+                </span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul class="header__menu">
+                    <li class="header__item"><a href="index.html" class="header__link">HOME</a></li>
+                    <li class="header__item"><a href="paysafecard.html" class="header__link">Paysafecard exchange</a>
+                    </li>
+                    <li class="header__item"><a href="exmo.html" class="header__link">EXMO code Exchange</a></li>
+                    <li class="header__item"><a href="bitcoin.html" class="header__link">Bitcoin exchange</a>
+                    </li>
+                    <li class="header__item"><a href="ethereum.html" class="header__link">Ethereum exchange</a>
+                    </li>
+                    <li class="header__item selected"><a href="litecoin.html" class="header__link">Litecoin exchange</a></li>
+                    <li class="header__item"><a href="guarantee.html" class="header__link">Guarantee</a>
+                        <ul class="header__submenu">
+                            <li class="header__subitem"><a href="#" class="header__sublink"><span>Add coment</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="header__item"><a href="faq.html" class="header__link">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="triangle_left"></div>
+            <div class="triangle_right"></div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="content">
+            <main class="main__content">
+                <div class="exchange exchange__PSC">
+                    <div class="exchange__types">
+                        Litecoin → PayPal USD, PayPal EUR / Litecoin → Webmoney WMZ, WME, WMR / Litecoin → Skrill USD, Skrill EUR / Litecoin →
+                        Perfect Money USD, Perfect Money EUR / Litecoin → Privat24.
+                    </div>
+                    <div class="exchange__transactions">
+                        <form id="paysafecard_form" action="#" class="form-exchange">
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">E-mail <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="Litecoin _email" size="50" class="form-exchange__email" type="email"
+                                        maxlength="50">
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Your Ethereum address <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="litecoin_address" class="form-exchange__email" type="text" required>
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Amount (min 0.01 ETC) <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="litecoin_amount" size="4" type="text" maxlength="4" required>
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Payment Method <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <select name="litecoin_method">
+                                        <option>Perfect Money USD</option>
+                                        <option>Perfect Money EUR</option>
+                                        <option>Webmoney WMZ</option>
+                                        <option>Webmoney WME</option>
+                                        <option>Webmoney WMR</option>
+                                        <option>Skrill EUR</option>
+                                        <option>Skrill USD</option>
+                                        <option>PayPal USD</option>
+                                        <option>PayPal EUR</option>
+                                        <option>PayPal GBP</option>
+                                        <option>Neteller USD</option>
+                                        <option>Neteller EUR</option>
+                                        <option>Приват24</option>
+                                    </select>
+                                    <img src="icons/logo/PM_icon.png" alt="PM">
+                                    <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                    <img src="icons/logo/skrill.png" alt="skrill">
+                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                    <img src="icons/logo/neteller.png" alt="Neteller">
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">PayPal, Skrill, Perfect Money, Neteller
+                                    or Webmoney account <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <input name="litecoin_wm" class="form-exchange__email" type="text" required>
+                                </div>
+                            </div>
+
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Litecoin address for payment: <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <div class="form-exchange__text">
+                                        MJ2Q8T953buXJP6SMKgfu5QRWLTge9HDp1
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-exchange__item">
+                                <div class="form-exchange__name">Security code <span>*</span>:</div>
+                                <div class="form-exchange__input">
+                                    <div class="g-recaptcha" style="display: block;"
+                                        data-sitekey="6LdK9roZAAAAAKZ0B6p8MIeqCprKyJUV-mcMKeTc"></div>
+                                </div>
+                            </div>
+                            <div class="form-exchange__button">
+                                <div class="form-exchange__wrapper">
+                                    <button>EXCHANGE</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="history">
+                        <div class="history__wrapper">
+                            <div class="history__title">
+                                <img src="icons/logo/money.png" class="history_icon" alt="money">
+                                Recent exchanges
+                            </div>
+                            <div class="history__information">
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        2.050 LTC = 280.60 PayPal USD <br>
+                                        2019-06-22 09:49:42
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="paypal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        10.50 LTC = 1437.24 PayPal USD <br>
+                                        2019-06-22 08:55:51
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="paypal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        1.000 LTC = 136.48 Webmoney USD <br>
+                                        2019-06-22 07:37:22
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="paypal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        2.500 LTC = 175.97 Perfect Money EUR <br>
+                                        2019-04-19 15:52:19
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="paypal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        5.000 LTC = 403.15 Webmoney USD <br>
+                                        2019-04-09 19:38:23
+                                    </div>
+                                    <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        1.015 LTC = 82.27 Skrill USD <br>
+                                        2019-04-09 06:02:12
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="paypal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        1.000 LTC = 80.63 Webmoney USD <br>
+                                        2019-04-05 15:27:28
+                                    </div>
+                                    <img src="icons/logo/skrill-icon.png" alt="paypal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        3.000 LTC = 242.61 PayPal USD <br>
+                                        2019-04-04 22:42:49
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="paypal">
+                                </div>
+                                <div class="history__item">
+                                    <img src="icons/logo/litecoin-icon.png" alt="ethereum">
+                                    <div class="history__descrp">
+                                        2.050 LTC = 165.78 PayPal USD <br>
+                                        2019-04-04 16:49:42
+                                    </div>
+                                    <img src="icons/logo/PayPal_icon.png" alt="paypal">
+                                </div>
+                                <span> &#60;&#60;&#62;&#62;</span>
+                            </div>
+                        </div>
+                        <div class="history__wrapper history__size">
+                            <div class="history__title">
+                                <img src="icons/logo/our_reserves.png" class="history_icon" alt="money">
+                                Our reserves
+                            </div>
+                            <div class="history__information history__reserve history__flex">
+                                <div class="reserve_wrapper">
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                        <div class="history__descrp paypal">
+                                            1825.20 GBP
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                        <div class="history__descrp paypal">
+                                            2015.80 EUR
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                        <div class="history__descrp paypal">
+                                            2310.35 USD
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/skrill-icon.png" alt="skrill">
+                                        <div class="history__descrp skrill">
+                                            2369.00 EUR
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/skrill-icon.png" alt="skrill">
+                                        <div class="history__descrp skrill">
+                                            3920.00 USD
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                        <div class="history__descrp webmoney">
+                                            1750.55 WME
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                        <div class="history__descrp webmoney">
+                                            2180.25 WMZ
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PM_icon.png" alt="PM">
+                                        <div class="history__descrp perfectmoney">
+                                            3423.10 EUR
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/PM_icon.png" alt="PM">
+                                        <div class="history__descrp perfectmoney">
+                                            6050.75 USD
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/neteller.png" alt="neteller">
+                                        <div class="history__descrp neteller">
+                                            18260.00 EUR
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/neteller.png" alt="neteller">
+                                        <div class="history__descrp neteller">
+                                            21255.00 USD
+                                        </div>
+                                    </div>
+                                    <div class="history__item reserve_item">
+                                        <img src="icons/logo/Privat24.png" alt="Privat24">
+                                        <div class="history__descrp privat24">
+                                            607133.00 UAH
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="voucher">
+                        <iframe width="640" height="360" src="https://www.youtube.com/embed/q7B7S88RtV8"></iframe>
+                        <p class="voucher__text">
+                            <a href="#"> Обмен Litecoin на PayPal USD, PayPal EUR, PayPal GBP – где выгоднее обменять?</a><br>
+                            При помощи нашего сайта любой посетитель сможет узнать, где можно произвести обмен Litecoin → PayPal EUR, PayPal GBP по
+                            наилучшему курсу. Выберите подходящий курс обмена, обращая внимание также и на резерв валюты PayPal. Наш онлайн-сервис
+                            прошел строгую проверку.
+                            Пользователям, посещающим наш мониторинг курсов впервые, рекомендован специальный видео-гайд, показывающий все функции
+                            сервиса cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен Litecoin на WMZ, WME, WMR – где выгоднее обменять?</a><br>
+                            С помощью нашего сайта каждый пользователь имеет возможность узнать, где можно поменять Litecoin → WMZ, WME, WMR по
+                            самому выгодному курсу. При определении оптимального курса обмена, обратите внимание также и на резервное количество
+                            необходимой валюты. Наш онлайн-сервис прошел строгую проверку.
+                            Если вы пользуетесь нашими услугами в первый раз, рекомендуем вам посмотреть видео, которое подробно расскажет о каждой
+                            возможной операции на cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен Litecoin на Skrill USD, Skrill EUR – где выгоднее обменять?</a> <br>
+                            С помощью нашего сайта каждый посетитель может узнать, где можно обменять Litecoin → Skrill USD, Skrill EUR по
+                            наилучшему курсу. При определении оптимального курса, обращайте также внимание и на резерв валюты Skrill. Наш
+                            онлайн-сервис прошел строгую проверку.
+                            Если вы впервые посетили наш пункт обмена, посмотрите видео, рассказывающее обо всех возможностях сайта cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен Litecoin на Приват 24 UAN – где выгоднее обменять?</a> <br>
+                            При помощи нашего сайта любой посетитель сможет узнать, где можно произвести обмен Litecoin → Приват 24 UAN по
+                            наилучшему курсу. Выберите подходящий курс обмена, обращая внимание также и на резерв валюты Privat24 UAN. Наш
+                            онлайн-сервис прошел строгую проверку.
+                            Пользователям, посещающим наш мониторинг курсов впервые, рекомендован специальный видео-гайд, показывающий все функции
+                            сервиса cashwox.net.
+                        </p>
+                        <p class="voucher__text">
+                            <a href="#">Обмен Litecoin на Neteller USD, Neteller EUR – где выгоднее обменять?</a> <br>
+                            При помощи нашего сайта любой посетитель сможет узнать, где можно произвести обмен Litecoin → Neteller USD, Neteller EUR
+                            по наилучшему курсу. Выберите подходящий курс обмена, обращая внимание также и на резерв валюты Neteller USD, Neteller
+                            EUR. Наш онлайн-сервис прошел строгую проверку.
+                            Пользователям, посещающим наш мониторинг курсов впервые, рекомендован специальный видео-гайд, показывающий все функции
+                            сервиса cashwox.net.
+                        </p>
+                    </div>
+                </div>
+            </main>
+            <aside class="sidebar__content">
+                <div class="sidebar__subheader"></div>
+                <div class="sidebar__main">
+                    <h3 class="sidebar__title">ALL RATES</h3>
+
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.87 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.96 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.05 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.21 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.95 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.05 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.21 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.95 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.05 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC GBP = 1.21 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 0.95 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">1.00 PSC EUR = 1.10 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PM">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC GBP = 0.0131 BTC</div>
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC EUR = 0.0121 BTC</div>
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC USD = 0.0105 BTC</div>
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC GBP = 2.7912 LTC</div>
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC EUR = 2.5400 LTC</div>
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC USD = 2.2050 LTC</div>
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC GBP = 0.5126 ETH</div>
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC EUR = 0.4665 ETH</div>
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/paysafecard_icon.png" alt="paysafecard">
+                            <div class="sidebar__descrp">100.00 PSC USD = 0.4050 ETH</div>
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 7288.14 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 8009.05 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC =9225.72 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 8001.68 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 9216.88 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 7984.96 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 9197.71 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 7993.32 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                            <div class="sidebar__descrp">1.00 BTC = 9207.05 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 34.75 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.19 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.99 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.15 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.95 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.10 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.86 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 38.11 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                            <div class="sidebar__descrp">1.00 LTC = 43.90 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 189.43 PAYPAL GBP</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.98 PAYPAL EUR</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 239.54 PAYPAL USD</div>
+                            <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.78 SKRILL EUR</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 239.30 SKRILL USD</div>
+                            <img src="icons/logo/skrill-icon.png" alt="Skrill">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.38 WME</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 238.85 WMZ</div>
+                            <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                        </div>
+                    </div>
+                    <div class="sidebar__wrapper">
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 207.58 PM EUR</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+                        <div class="sidebar__item">
+                            <img src="icons/logo/Ethereum_icon.png" alt="Ethereum">
+                            <div class="sidebar__descrp">1.00 ETH = 239.08 PM USD</div>
+                            <img src="icons/logo/PM_icon.png" alt="PerfectMoney">
+                        </div>
+
+                    </div>
+
+                    <!-- Triangle -->
+                    <div class="sideline_Left sideline-color"></div>
+                    <div class="sideline_Right sideline-color"></div>
+
+                    <div class="triangle_left triangle-L_side-main"></div>
+                    <div class="triangle_right triangle-R_side-main"></div>
+                </div>
+                <div class="sidebar__footer">
+                    <hr>
+                </div>
+            </aside>
+
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__wrapper">
+                <a href="#">Copyright MyCorp © 2020</a>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
