@@ -177,6 +177,7 @@
     text-transform: uppercase;
     color: #ffff;
     width: auto;
+    outline: none;
 }
 
 .form-exchange__wrapper button:hover {
@@ -778,3 +779,426 @@
 .excellent__text {
     width: 500px;
 }
+
+/* Profile */
+
+.profile {
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile a {
+    color: #1abc9c;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.profile a:hover {
+    text-decoration: underline;
+}
+
+.profile hr {
+    margin: 15px 0;
+    border-top: 0;
+    border-bottom: 1px solid #dbe1e8;
+}
+
+.profile__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile__avatar {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.profile__avatar img {
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.profile__status {
+    position: absolute;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 3px solid #ffffff;
+    right: 5px;
+    bottom: 5px;
+}
+
+.profile__online {
+    background-color: #2BD400;
+}
+
+.profile__offline {
+    background-color:#F74659;
+}
+
+.profile__full-name {
+    margin-bottom: 7px;
+}
+
+.profile__buttons {
+    margin: 30px 0 15px;
+    display: flex;
+}
+
+.profile__buttons a {
+    display: block;
+    background-color: #EBEFF0;
+    color: #27292C;
+    font-size: 11px;
+    border: 1px solid #D5D9DB;
+    border-radius: 20px;
+    padding: 6px 14px 7px;
+    margin: 8px;
+}
+
+.profile__buttons a:hover {
+    text-decoration: none;
+    background-color: #D5D9DB;
+}
+
+.profile__subtitle {
+    font-size: 19px;
+    font-weight: normal;
+    margin: 20px 0;
+}
+
+.profile__section {
+    font-size: 13px;
+    margin-bottom: 40px;
+}
+
+.profile__string {
+    display: flex;
+    margin: 7px 0;
+}
+
+.string__name {
+    width: 160px;
+}
+
+.string__content {
+    height: 10px;
+}
+
+.string__content img {
+    height: 100%;
+    margin: 0 3px;
+}
+
+.profile__social {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 40px;
+}
+
+.profile__link {
+    margin-right: 5px;
+}
+
+.profile__icon {
+    width: 26px;
+    height: 26px;
+}
+
+.profile__icon img {
+    height: 15px;
+}
+
+.profile__search {
+    display: flex;
+    justify-content: center;
+}
+
+.form-search {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile__input input {
+    max-width: 240px;
+    margin: 0 3px;
+    font-size: 13px;
+    text-align: center;
+}
+
+.profile__input input::-webkit-input-placeholder {
+    color: #dbe1e8;
+}
+
+.profile__input input::-moz-placeholder {
+    color: #dbe1e8;
+}
+
+.edit__form {
+    font-size: 13px;
+}
+
+.edit__item {
+    display: flex;
+    align-items: center;
+}
+
+.edit__item textarea {
+    width: 100%;
+    height: 76px;
+    color: #999;
+    border: 1px solid #dbe1e8;
+    outline: none;
+    padding: 8px;
+}
+
+.edit__item select {
+    height: 30px;
+    color: #999;
+    border: 1px solid #dbe1e8;
+    outline: none;
+}
+
+
+.edit__name {
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    min-width: 235px;
+    
+}
+
+.red {
+    color: #fd4339;
+    font-weight: normal;
+}
+
+.edit__content span {
+    font-weight: 700;
+}
+
+.edit__input {
+    width: 100%;
+    height: 30px;
+    color: #999;
+    border: 1px solid #dbe1e8;
+    outline: none;
+    padding: 0 8px;
+}
+
+.edit__content {
+    margin: 2px 0;
+}
+
+.edit__checkbox {
+    text-align: center;
+}
+
+.edit__checked {
+    margin: 5px 8px 5px 0;
+    color: #939fae;
+}
+
+/*Accept private messages  - Button_click*/
+
+#hider {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
+#hider:checked+.edit__groups {
+    display: block;
+}
+
+.edit__link {
+    text-decoration: none;
+    color: #1abc9c;
+    cursor: pointer;
+}
+
+.edit__link:hover {
+    text-decoration: underline;
+}
+
+.edit__groups {
+    margin-top: 10px;
+    display: none;
+    text-align: start;
+}
+
+.edit__button {
+    justify-content: center;
+}
+
+
+/*  mail profile*/
+
+.profile__mail {
+   font-family: Tahoma, Geneva, sans-serif;
+   font-size: 13px;
+}
+
+.mail__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+.mail__menu {
+    display: flex;
+    align-items: center;
+}
+
+.mail__menu a {
+    margin: 0 2px;
+}
+
+.mail__menu span {
+    font-weight: 700;
+}
+
+.mail__informer {
+    position: relative;
+    width: 60px;
+    height: 12px;
+    background: #eee;
+    border: 1px solid #bbb;
+    cursor: help;
+    border-radius: 2px;
+}
+
+.mail__indication {
+    position: absolute;
+    content: "";
+    width: 1%;
+    height: 11px;
+    background-color: #51b5ea;
+}
+
+.mail__messages {
+    text-align: center;
+}
+
+/*Send messages*/
+
+.mail__form {
+    font-size: 13px;
+    text-align: start;
+}
+
+.mail__item {
+    display: flex;
+    justify-content: start;
+    margin: 5px 0;
+}
+
+.mail__item textarea {
+    height: 135px;
+}
+
+.mail__name {
+    min-width: 150px;
+}
+
+.mail__wrapper {
+    width: 100%;
+}
+
+.mail__recipient input {
+    width: 250px;
+}
+
+.mail__wrapper-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+/*Users profile*/
+
+.profile__users {
+    font-size: 13px;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+.users_found {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users__pages {
+    display: flex;
+}
+
+.users__pages a {
+    margin: 0 2px;
+}
+
+.users_pages-active {
+    color: #5e6d81 !important;
+    font-weight: 700;
+}
+
+.users__subtitle {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.users__subtitle div {
+    font-weight: 700;
+}
+
+.users__users {
+    display: flex;
+    justify-content: space-between;
+}
+
+.users__avatar {
+    width: 43px;
+    display: flex;
+    justify-content: center;
+}
+
+.users__avatar img {
+    width: 16px;
+    height: 16px;
+}
+
+.users__group {
+    width: 40px;
+}
+
+.users__registration {
+    width: 113px;
+    text-align: center;
+}
+
+.users__messages {
+    width: 63px;
+    text-align: center;
+}
+
+.users__search {
+    font-size: 13px;
+}
+
+
+.users__input {
+    width: 92px;
+}
+
+.users__item {
+    margin: 0 2px;
+}
+
+.users__item select {
+    padding: 0 5px;
+}
+

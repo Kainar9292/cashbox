@@ -47,11 +47,12 @@
                     </li>
                     <li class="header__item"><a href="guarantee.html" class="header__link">Guarantee</a>
                         <ul class="header__submenu">
-                            <li class="header__subitem"><a href="coment.html" class="header__sublink"><span>Add coment</span></a>
+                            <li class="header__subitem"><a href="coment.html" class="header__sublink"><span>Add
+                                        coment</span></a>
                             </li>
                         </ul>
                     </li>
-                    <li class="header__item selected"><a href="faq.html" class="header__link">FAQ</a></li>
+                    <li class="header__item"><a href="faq.html" class="header__link">FAQ</a></li>
                 </ul>
             </div>
             <div class="triangle_left"></div>
@@ -62,60 +63,90 @@
     <div class="container">
         <div class="content">
             <main class="main__content">
-
-                <div class="main__faq">
-                    <div class="main__contacts">
-                       <span>Email</span>: <br>
-                        cashwox@gmail.com <br> <br>
-                        Tel: + 33 (0) 1 43 06 02 94 <br> <br>
-                        <div class="main__icq">
-                            <span>ICQ</span>:
-                            674 835 589
+                <div class="profile">
+                    <div class="profile__mail">
+                        <div class="mail__header">
+                            <div class="mail__menu">
+                                [ <a href="#">Inbox(<span>0</span>) </a>|
+                                <a href="#">Sent(<span>0</span>) </a>|
+                                <a href="#">Send PM </a>|
+                                <a href="#">My profile</a>
+                                ]
+                            </div>
+                            <div class="mail__informer">
+                                <div class="mail__indication"></div>
+                            </div>
                         </div>
+                        <hr>
+                        <div class="mail__messages">
+                           <form action="#" class="mail__form"> 
+                                <div class="mail__item mail__recipient">
+                                    <div class="mail__name">Recipient:</div>
+                                    <input name="#" class="edit__input" type="text" maxlength="500">
+                                </div>
+                                <div class="mail__item mail__subject">
+                                    <div class="mail__name">Subject:</div>
+                                    <input name="#" class="edit__input" type="text" maxlength="500">
+                                </div>
+                                <div class="edit__item mail__item">
+                                    <textarea name="#" maxlength="1000"></textarea>
+                                </div>
+                                <div class="mail__item">
+                                    <div class="edit__item mail__name">Security code</div>
+                                    <div class="g-recaptcha" style="display: block;" data-sitekey="6LdK9roZAAAAAKZ0B6p8MIeqCprKyJUV-mcMKeTc"></div>
+                                </div>
+
+                                <div class="mail__wrapper-buttons">
+                                    <div class="form-exchange__wrapper users__item">
+                                        <button>Preview</button>
+                                    </div>
+                                    <div class="form-exchange__wrapper users__item">
+                                        <button>Send</button>
+                                    </div>
+                                    <div class="form-exchange__wrapper users__item">
+                                        <button>Cancel</button>
+                                    </div>
+                                </div>
+                           </form>
+
+
+                        </div>
+                        <hr>
                     </div>
-                    <div class="faq">
-                        <form id="faq_form" action="#" class="form-faq">
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        E-mail <span>*</span>:
-                                    </div>
-                                    <input name="faq_email" size="50" type="email" maxlength="50" required>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        Name <span>*</span>:
-                                    </div>
-                                    <input name="faq_name" size="50" type="text" maxlength="50" required>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <select name="faq_support">
-                                        <option>Support (Exchange)</option>
-                                        <option>Support (FAQ)</option>
-                                    </select>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        Subject <span>*</span>:
-                                    </div>
-                                    <input name="faq_subject" type="text" required>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        Message <span>*</span>:
-                                    </div>
-                                    <textarea name="faq_message" maxlength="600" required></textarea>
-                                </div>
-                                <div class="form-exchange__wrapper faq__button">
-                                    <button>EXCHANGE</button>
-                                </div>
+                    <div class="profile__search">
+                        <form action="list_of_users.html" class="form-search">
+                            <div class="form-exchange__wrapper">
+                                <button>List of users</button>
+                            </div>
+                            <div class="registration__input profile__input">
+                                <input name="faq__name" size="100" type="email" maxlength="100"
+                                    placeholder="User's login">
+                            </div>
+                            <div class="form-exchange__wrapper">
+                                <button>Find user</button>
+                            </div>
                         </form>
                     </div>
 
                 </div>
 
+
             </main>
             <aside class="sidebar__content">
-                <div class="sidebar__subheader"></div>
+                <div class="sidebar__subheader">
+                    <div class="sidebar__avatar">
+                        <img src="img/profile/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="sidebar__welcome">
+                        Welcome, <a href="profile.html" class="sidebar__authorized">richard_h</a>!
+                        <!-- class="sidebar__not-authorized" -->
+                    </div>
+                    <div class="sidebar__authorization">
+                        <a href="profile.html">My profile</a>
+                        |
+                        <a href="coment.html">Log out</a>
+                    </div>
+                </div>
                 <div class="sidebar__main">
                     <h3 class="sidebar__title">ALL RATES</h3>
 
@@ -437,9 +468,6 @@
         </div>
 
     </footer>
-
-
-
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>

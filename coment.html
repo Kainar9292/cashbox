@@ -358,7 +358,7 @@
                                 <input name="#" size="50" class="" type="text" maxlength="50" required>
                             </div>
                             <div class="form__item">
-                                <textarea name="faq_message" type="text" maxlength="600" required></textarea>
+                                <textarea name="faq_message" maxlength="600" required></textarea>
                             </div>
                             <div class="form__item">
                                 <div class="form__name">Code:</div>
@@ -377,7 +377,8 @@
             <aside class="sidebar__content">
                 <div class="sidebar__subheader">
                     <div class="sidebar__welcome">
-                        Welcome, <strong>Guest</strong>!
+                        Welcome, <a href="#" class="sidebar__not-authorized">Guest</a>!
+                        <!-- class="sidebar__authorized" -->
                     </div>
                     <div class="sidebar__authorization">
                         <a href="sign_up.html">Sign Up</a>

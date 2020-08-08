@@ -47,11 +47,12 @@
                     </li>
                     <li class="header__item"><a href="guarantee.html" class="header__link">Guarantee</a>
                         <ul class="header__submenu">
-                            <li class="header__subitem"><a href="coment.html" class="header__sublink"><span>Add coment</span></a>
+                            <li class="header__subitem"><a href="coment.html" class="header__sublink"><span>Add
+                                        coment</span></a>
                             </li>
                         </ul>
                     </li>
-                    <li class="header__item selected"><a href="faq.html" class="header__link">FAQ</a></li>
+                    <li class="header__item"><a href="faq.html" class="header__link">FAQ</a></li>
                 </ul>
             </div>
             <div class="triangle_left"></div>
@@ -62,60 +63,116 @@
     <div class="container">
         <div class="content">
             <main class="main__content">
-
-                <div class="main__faq">
-                    <div class="main__contacts">
-                       <span>Email</span>: <br>
-                        cashwox@gmail.com <br> <br>
-                        Tel: + 33 (0) 1 43 06 02 94 <br> <br>
-                        <div class="main__icq">
-                            <span>ICQ</span>:
-                            674 835 589
+                <div class="profile">
+                    <div class="profile__header">
+                        <div class="profile__avatar">
+                            <img src="img/profile/photo_users.png" alt="profile__avatar">
+                            <div class="profile__status profile__online"></div> <!-- class= "profile__offline" -->
+                        </div>
+                        <div class="profile__full-name">Ричард Хендрикс</div>
+                        <div class="profile__nickname">
+                            <a href="#">richard_h</a>
+                        </div>
+                        <div class="profile__buttons">
+                            <a href="profile_edit.html">Edit user details</a>
+                            <a href="read_pm.html">Read PM (0)</a>
                         </div>
                     </div>
-                    <div class="faq">
-                        <form id="faq_form" action="#" class="form-faq">
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        E-mail <span>*</span>:
-                                    </div>
-                                    <input name="faq_email" size="50" type="email" maxlength="50" required>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        Name <span>*</span>:
-                                    </div>
-                                    <input name="faq_name" size="50" type="text" maxlength="50" required>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <select name="faq_support">
-                                        <option>Support (Exchange)</option>
-                                        <option>Support (FAQ)</option>
-                                    </select>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        Subject <span>*</span>:
-                                    </div>
-                                    <input name="faq_subject" type="text" required>
-                                </div>
-                                <div class="form-exchange__input faq__input">
-                                    <div class="faq__name">
-                                        Message <span>*</span>:
-                                    </div>
-                                    <textarea name="faq_message" maxlength="600" required></textarea>
-                                </div>
-                                <div class="form-exchange__wrapper faq__button">
-                                    <button>EXCHANGE</button>
-                                </div>
-                        </form>
+                    <hr>
+
+                    <h4 class="profile__subtitle">User activity</h4>
+                    <div class="profile__section">
+                        <div class="profile__string">
+                            <div class="string__name">Rank:</div>
+                            <div class="string__content"><img src="img/profile/rank1.gif" alt="rank1">[ Private ]</div>
+                        </div>
+                        <div class="profile__string">
+                            <div class="string__name">Reputation:</div>
+                            <div class="string__content"><a href="#">0</a></div>
+                        </div>
+                        <div class="profile__string">
+                            <div class="string__name">Reproofs:</div>
+                            <div class="string__content"><a href="#">0%</a></div>
+                        </div>
+
+                    </div>
+                    <h4 class="profile__subtitle">Social profiles</h4>
+                    <div class="profile__social">
+                        <a href="#" class="profile__link">
+                            <div class="registration__icon profile__icon ucoz">
+                                <img src="icons/logo/ucoz.svg" alt="ucoz">
+                            </div>
+                        </a>
+                        <a href="#" class="profile__link">
+                            <div class="registration__icon profile__icon facebook">
+                                <img src="icons/logo/facebook.svg" alt="facebook">
+                            </div>
+                        </a>
+                        <a href="#" class="profile__link">
+                            <div class="registration__icon profile__icon google">
+                                <img src="icons/logo/google.svg" alt="google">
+                            </div>
+                        </a>
+                    </div>
+                    <h4 class="profile__subtitle">Basic information</h4>
+                    <div class="profile__section">
+                        <div class="profile__string">
+                            <div class="string__name">Group:</div>
+                            <div class="string__content">Users</div>
+                        </div>
+                        <div class="profile__string">
+                            <div class="string__name">Registration date:</div>
+                            <div class="string__content">Friday, 07.08.2020, 16:08</div>
+                        </div>
+                        <div class="profile__string">
+                            <div class="string__name">Login date:</div>
+                            <div class="string__content">Saturday, 08.08.2020, 17:30</div>
+                        </div>
+                        <div class="profile__string">
+                            <div class="string__name">Sex:</div>
+                            <div class="string__content">Female</div>
+                        </div>
+                    </div>
+                    <h4 class="profile__subtitle">Contact details</h4>
+                    <div class="profile__section">
+                        <div class="profile__string">
+                            <div class="string__name">Email:</div>
+                            <div class="string__content">richard_h@gmail.com (Email hidden)</div>
+                        </div>
                     </div>
 
+                    <div class="profile__search">
+                        <form action="list_of_users.html" class="form-search">
+                            <div class="form-exchange__wrapper">
+                                <button>List of users</button>
+                            </div>
+                            <div class="registration__input profile__input">
+                                <input name="faq__name" size="100" type="email" maxlength="100" placeholder="User's login">
+                            </div>
+                            <div class="form-exchange__wrapper">
+                                <button>Find user</button>
+                            </div>
+                        </form>
+                    </div>
+                    
                 </div>
+
 
             </main>
             <aside class="sidebar__content">
-                <div class="sidebar__subheader"></div>
+                <div class="sidebar__subheader">
+                    <div class="sidebar__avatar">
+                        <img src="img/profile/avatar.jpg" alt="avatar">
+                    </div>
+                    <div class="sidebar__welcome">
+                        Welcome, <a href="profile.html" class="sidebar__authorized">richard_h</a>! <!-- class="sidebar__not-authorized" -->
+                    </div>
+                    <div class="sidebar__authorization">
+                        <a href="profile.html">My profile</a>
+                        |
+                        <a href="coment.html">Log out</a>
+                    </div>
+                </div>
                 <div class="sidebar__main">
                     <h3 class="sidebar__title">ALL RATES</h3>
 
@@ -437,9 +494,6 @@
         </div>
 
     </footer>
-
-
-
     <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>

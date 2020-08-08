@@ -273,10 +273,40 @@ body {
     background-color: #ffffff;
 }
 
+.sidebar__avatar {
+    width: 241px;
+    height: 241px;
+    margin-bottom: 5px;
+}
+
+.sidebar__avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid #dbe1e8;
+    
+}
+
 .sidebar__welcome {
     font-size: 15px;
     font-family: PT Sans;
     padding-bottom: 5px;
+}
+
+.sidebar__authorized {
+    font-weight: 700;
+    text-decoration: none;
+    color: #1abc9c;
+}
+
+.sidebar__authorized:hover {
+    text-decoration: underline;
+}
+
+.sidebar__not-authorized {
+    color: #5e6d81;
+    text-decoration: none;
+    font-weight: 700;
 }
 
 .sidebar__authorization {
