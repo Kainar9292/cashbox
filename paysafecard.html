@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>cashwox.net - Exchange Bitcoin</title>
     <link rel="stylesheet" href="css/normalize.css">
+    <script src='https://www.google.com/recaptcha/api.js'></script>
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/slick.min.css">
-    <script src='https://www.google.com/recaptcha/api.js'></script>
+    
 </head>
 
 <body>
@@ -42,10 +43,9 @@
                     <li class="header__item"><a href="bitcoin.html" class="header__link">Bitcoin exchange</a></li>
                     <li class="header__item"><a href="ethereum.html" class="header__link">Ethereum exchange</a></li>
                     <li class="header__item"><a href="litecoin.html" class="header__link">Litecoin exchange</a></li>
-                    <li class="header__item"><a href="guarantee.html" class="header__link">Guarantee</a>
+                    <li class="header__item header__add"><a href="guarantee.html" class="header__link">Guarantee +</a>
                         <ul class="header__submenu">
-                            <li class="header__subitem"><a href="coment.html" class="header__sublink"><span>Add coment</span></a>
-                            </li>
+                            <li class="header__subitem"><a href="coment.html" class="header__sublink"><span>Add coment</span></a></li>
                         </ul>
                     </li>
                     <li class="header__item"><a href="faq.html" class="header__link">FAQ</a></li>
@@ -53,6 +53,11 @@
             </div>
             <div class="triangle_left"></div>
             <div class="triangle_right"></div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
         </nav>
     </header>
 
@@ -73,7 +78,10 @@
                                     <input name="paysafecard_cardpin-2" size="4" type="text" maxlength="4" required>
                                     <input name="paysafecard_cardpin-3" size="4" type="text" maxlength="4" required>
                                     <input name="paysafecard_cardpin-4" size="4" type="text" maxlength="4" required>
-                                    <img src="icons/logo/paysafecard_form.png" alt="paysafecard">
+                                    <div class="form-exchange__img">
+                                        <img src="icons/logo/paysafecard_form.png" alt="paysafecard">
+                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="form-exchange__item">
@@ -172,16 +180,19 @@
                                         <option>DogeCoin (DOGE)</option>
                                         <option>Dashcoin (DSH)</option>
                                     </select>
-                                    <img src="icons/logo/PM_icon.png" alt="PM">
-                                    <img src="icons/logo/webmoney_icon.png" alt="webmoney">
-                                    <img src="icons/logo/skrill.png" alt="skrill">
-                                    <img src="icons/logo/PayPal_icon.png" alt="PayPal">
-                                    <img src="icons/logo/neteller.png" alt="neteller">
-                                    <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
-                                    <img src="icons/logo/dash.png" alt="dash">
-                                    <img src="icons/logo/ethereum_form.png" alt="ethereum">
-                                    <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
-                                    <img src="icons/logo/dogecoin.png" alt="dogecoin">
+                                    <div class="form-exchange__img">
+                                        <img src="icons/logo/PM_icon.png" alt="PM">
+                                        <img src="icons/logo/webmoney_icon.png" alt="webmoney">
+                                        <img src="icons/logo/skrill.png" alt="skrill">
+                                        <img src="icons/logo/PayPal_icon.png" alt="PayPal">
+                                        <img src="icons/logo/neteller.png" alt="neteller">
+                                        <img src="icons/logo/Bitcoin_icon.png" alt="Bitcoin">
+                                        <img src="icons/logo/dash.png" alt="dash">
+                                        <img src="icons/logo/ethereum_form.png" alt="ethereum">
+                                        <img src="icons/logo/Litecoin-icon.png" alt="Litecoin">
+                                        <img src="icons/logo/dogecoin.png" alt="dogecoin">
+                                    </div>
+                                    
                                 </div>
                                 
                             </div>
@@ -376,7 +387,10 @@
                                     </div>
                                     <img src="icons/logo/PayPal_icon.png" alt="PayPal">
                                 </div>
-                                <span> &#60;&#60;&#62;&#62;</span>
+                                <div class="history__switch">
+                                    &#60;&#60;&#62;&#62;
+                                </div>
+                                
                             </div>
                         </div>
                         <div class="history__wrapper history__size">
@@ -483,7 +497,7 @@
                     </div>
 
                     <div class="voucher">
-                        <iframe width="640" height="360" src="https://www.youtube.com/embed/GxchdrzRXZ4"></iframe>
+                        <iframe src="https://www.youtube.com/embed/GxchdrzRXZ4"></iframe>
                         <p>
                             Topping up a BitCoin, LiteCoin, Ethereum, DogeCoin, DushCoin, NETELLER, Skrill, Paypal, Webmoney account with PIN
                             paysafecard
@@ -513,7 +527,7 @@
                         <p>
                             Top up your BitCoin, LiteCoin, Ethereum, DogeCoin, DushCoin, NETELLER, Skrill, Paypal, Webmoney account <a href="#">using PIN paysafecard</a> 
                             paysafecard: Select paysafecard as the payment method and enter your <a href="#">PIN paysafecard</a>, email and wallet.
-                        </p>
+                        </p> <br>
 
                         <p class="voucher__text">
                             <a href="#">Обмен PaySafeCard на WMZ – где выгоднее обменять?</a> <br>

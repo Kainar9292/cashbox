@@ -41,7 +41,7 @@
 .form-exchange__name {
     text-align: start;
     display: inline-block;
-    width: 35%;
+    min-width: 30%;
     height: 100%;
     padding: 4px;
 }
@@ -57,6 +57,7 @@
     border-left: 0.5px inset #dbe1e8;
     padding: 4px;
     height: 100%;
+    min-width: 70%;
     font-family: Arial, sans-serif;
 }
 
@@ -68,7 +69,7 @@
     width: 63px;
     outline: none;
     padding: 0 8px;
-    margin: 0 1px;
+    margin: 1px;
 }
 
 .form-exchange__input select {
@@ -82,8 +83,8 @@
 
 .form-exchange__input img {
     display: block;
-    height: 30px;
-    margin: 0 1px;
+    height: 28px;
+    margin: 1px;
 }
 
 .form-exchange__input span {
@@ -101,6 +102,12 @@
     width: 400px;
     outline: none;
     padding: 8px;
+}
+
+.form-exchange__img {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1px 0;
 }
 
 .form-exchange__email {
@@ -150,8 +157,6 @@
     text-align: center;
     margin: 15px 0;
 }
-
-
 
 .form-exchange__button {
     display: flex;
@@ -220,9 +225,9 @@
     display: flex;
     align-items: center;
     border: 1px solid;
-    font-size: 22px;
-    padding: 10px;
-    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 7px;
+    margin: 15px 0;
 }
 
 .history__size {
@@ -236,16 +241,17 @@
     height: 93%;
 }
 
-.history__information span {
+.history__switch {
     font-size: 14px;
-    min-height: 490px;
+    text-align: center;
+    margin: 0 auto;
 }
 
 .history__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 13px 0;
+    margin: 15px 0;
 }
 
 .history__item img {
@@ -330,6 +336,11 @@
 .voucher {
     font-size: 14px;
     margin: 40px 0;
+}
+
+.voucher iframe {
+    width: 630px;
+    height: 360px;
 }
 
 .voucher a {
@@ -477,8 +488,7 @@
 
 .instruction img {
     display: block;
-    /* margin: 0 auto; */
-    width: 730px;
+    width: 465px;
 }
 
 .instruction__title {
@@ -516,7 +526,7 @@
     display: flex;
     justify-content: space-between;
     font-size: 13px;
-    padding-bottom: 4px;
+    padding: 4px 0;
 }
 
 .title__wrapper {
@@ -726,7 +736,7 @@
 }
 
 .ucoz img {
-    width: 17px;
+    width: 14px;
 }
 
 .facebook {
@@ -778,6 +788,7 @@
 
 .excellent__text {
     width: 500px;
+    text-align: center;
 }
 
 /* Profile */
@@ -1202,3 +1213,537 @@
     padding: 0 5px;
 }
 
+
+/*adaptive*/
+
+
+@media (max-width: 991px) {
+    .container {
+        max-width: 1011px;
+    }
+
+    .header__item {
+        padding: 0 6px;
+        text-align: center;
+    }
+
+    .header__item:active .header__submenu {
+        transition: all 1s;
+        display: flex;
+    }
+
+    .overview__wrapper {
+        padding: 10px 10px 20px 10px;
+    }
+
+    .overview__descrp {
+        font-size: 11px;
+    }
+
+    .slick-dots {
+        bottom: -3%;
+    }
+
+    .exchange__transactions {
+        border: 10px outset;
+        border-color: grey;
+    }
+
+    .form-exchange iframe {
+        width: 100%;
+    }
+
+    .sidebar__descrp {
+        font-size: 11px;
+    }
+
+    .sidebar__main {
+        padding: 10px 0;
+    }
+
+    .variation {
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    .variation__item {
+        width: 170px;
+    }
+
+    .history {
+        flex-direction: column;
+    }
+
+    .history__wrapper {
+        width: 100%;
+    }
+
+    .voucher iframe {
+        width: 100%;
+    }
+
+    .exmo {
+        flex-direction: column;
+    }
+
+    .exmo__item {
+        width: 100%;
+    }
+
+    .main__faq {
+        flex-direction: column;
+    }
+
+    .main__contacts {
+        margin-bottom: 30px;
+    }
+
+    .form-exchange__wrapper button {
+        font-size: 10px;
+    }
+
+    .edit__name {
+        min-width: 150px;
+    }
+
+    .users__search {
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 767px) {
+    
+    .header {
+        min-height: 150px;
+    }
+    .header input {
+        width: 220px;
+    }
+    
+    .header__logo {
+        min-height: 100px;
+    }
+
+    nav {
+        font-size: 10px;
+    }
+
+    .exchange__types {
+        font-size: 12px;
+    }
+
+    .overview__title {
+        font-size: 13px;
+    }
+
+    .overview__descrp {
+        font-size: 10px;
+    }
+
+    .slick-dots {
+        bottom: -4.5%;
+    }
+
+    .content {
+        flex-direction: column;
+    }
+
+    .main__content {
+        padding: 20px 20px 40px;
+        margin-right: 0;
+    }
+
+    .exchange__direction {
+        font-size: 15px;
+    }
+
+    .variation__item {
+        width: 150px;
+    }
+
+    .sidebar__content {
+        margin-left: 0;
+    }
+
+    .sidebar__descrp {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .header {
+        min-height: 128px;
+    }
+
+    .container {
+        margin: 0;
+    }
+
+    .header__img {
+        margin-bottom: 3px;
+    }
+
+    .header__search {
+        width: 100%;
+    }
+
+    .header input {
+        width: 100%;
+        height: 20px;
+        font-size: 10px;
+    }
+
+    .header button {
+        height: 20px;
+    }
+
+    .header__logo {
+        flex-direction: column;
+        justify-content: center;
+        min-height: 80px;
+    }
+
+    .header__img {
+        width: 180px;
+    }
+
+    .header__ticker {
+        height: 18px;
+    }
+
+    .header__ticker span {
+        font-size: 8px;
+    }
+
+    .header__menu {
+        display: none;
+        flex-direction: column;
+        width: 180%;
+    }
+
+    .header__item {
+        width: 100%;
+        margin: 5px 0 5px 2px;
+        padding-bottom: 5px ;
+        border-bottom: 1px solid #ffffff;
+    }
+
+    .header__menu_active {
+        display: flex;
+    }
+
+    .header__add {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+    }
+
+    .header__submenu {
+        position: static;
+        display: none;
+        background-color: #1abc9c;
+        width: 100%;
+        height: 100%;
+        font-size: 8px;
+        transition: none;
+    }
+
+    nav {
+        min-height: 30px;
+        padding: 10px;
+    }
+
+    .hamburger {
+        display: block;
+        width: 30px;
+        height: 40px;
+        z-index: 10;
+        position: absolute;
+        top: 9px;
+        right: 15px;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 3px;
+        width: 100%;
+        background-color: #ffffff;
+        margin-bottom: 3px;
+        transition: 0.3s all;
+    }
+
+    .hamburger_active span {
+        margin-bottom: -3px;
+    }
+
+    .hamburger_active span:nth-child(1) {
+        transform: translateY(3px) rotate(-45deg);
+    }
+
+    .hamburger_active span:nth-child(2) {
+        display: none;
+    }
+
+    .hamburger_active span:nth-child(3) {
+        transform: translateY(3px) rotate(45deg);
+    }
+
+    .carousel {
+        margin-bottom: 10px;
+    }
+
+    .overview__wrapper {
+        padding: 3px;
+    }
+
+    .overview__title {
+        margin-bottom: 5px;
+        font-size: 9px;
+    }
+
+    .overview__descrp {
+        font-size: 6px;
+    }
+
+    .slick-dots button {
+        width: 4px;
+        height: 4px;
+    }
+
+    .slick-dots {
+        bottom: -15px;
+    }
+
+    .main__content {
+        padding: 10px;
+    }
+
+    .exchange__direction {
+        font-size: 10px;
+        padding: 10px 0;
+    }
+
+    .variation {
+        padding: 5px;
+    }
+
+    .variation__item {
+        width: 90px;
+    }
+
+    .form-exchange__item {
+        flex-direction: column;
+        font-size: 15px;
+        padding: 5px 0;
+    }
+
+    .form-exchange__input {
+        justify-content: center;
+        border-left: 0;
+    }
+
+    .form-exchange__input input {
+        width: 59px;
+    }
+
+    .form-exchange__img {
+        justify-content: center;
+    }
+
+    .g-recaptcha {
+        width: 230px;
+        transform: scale(.79);
+        -webkit-transform: scale(.79);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+
+    .history {
+        padding: 5px;
+    }
+
+    .history__descrp {
+        font-size: 13px;
+    }
+
+    .voucher iframe {
+        height: 250px;
+    }
+
+    .exmo_check {
+        width: 176px !important;
+    }
+
+    .exmo__item {
+        padding: 5px;
+    }
+
+    .form-exchange__name {
+        text-align: center;
+    }
+
+    .form-exchange__text {
+        font-size: 10px;
+    }
+
+    .comment {
+        font-size: 12px;
+    }
+
+    .form__comment {
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .form__item textarea {
+        height: 100px;
+    }
+
+    .comment__item-wrapper {
+        padding: 10px 0;
+    }
+
+    .comment__item-wrapper .g-recaptcha {
+        width: 200px;
+        transform: scale(.65);
+        -webkit-transform: scale(.65);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+
+    .faq__input input {
+        width: 100%;
+    }
+
+    .faq__input textarea {
+        width: 100%;
+    }
+
+    .registration {
+        flex-direction: column;
+    }
+
+    .registration__wrapper {
+        width: 100%;
+    }
+
+    .registration__input {
+        max-width: 260px;
+    }
+
+    .excellent__text {
+        width: 260px;
+    }
+
+    .profile {
+        padding: 10px;
+    }
+
+    .profile__section {
+        font-size: 11px;
+    }
+
+    .string__name {
+        width: 100px;
+    }
+
+    .form-exchange__wrapper button {
+        font-size: 9px;
+        padding: 5px 10px;
+    }
+
+    .edit__item {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .edit__checkbox {
+        text-align: start;
+    }
+
+    .mail__informer {
+        width: 50px;
+    }
+
+    .mail__menu a {
+        font-size: 10px;
+    }
+
+    .mail__name {
+        min-width: 85px;
+    }
+
+    .mail__item-wrapper {
+        width: 200px;
+        transform: scale(.65);
+        -webkit-transform: scale(.65);
+        transform-origin: 0 0;
+        -webkit-transform-origin: 0 0;
+    }
+
+    .form__user {
+        flex-direction: column;
+        width: 50%;
+    }
+
+    .form__user select {
+        width: 100%;
+        margin: 2px 0;
+    }
+
+    .users__username {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        min-width: 40px;
+    }
+
+    .users__username a {
+        font-size: 8px;
+    }
+
+    .users__input {
+        width: 98%;
+    }
+
+    .users__table {
+        font-size: 8px;
+    }
+
+    .users__avatar {
+        width: 27px;
+    }
+
+    .users__group {
+        width: 24px;
+    }
+
+    .users__rank {
+        width: 20px;
+    }
+
+    .users__rank img {
+        width: 20px;
+    }
+
+    .users__registration {
+        width: 69px;
+    }
+
+    .users__messages {
+        width: 38px;
+    }
+
+    .profile__input input {
+        margin: 0;
+    }
+
+
+
+
+
+
+}
+    

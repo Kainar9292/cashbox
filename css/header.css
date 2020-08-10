@@ -9,6 +9,10 @@
     align-items: center;
 }
 
+.header__img {
+    width: 260px;
+}
+
 .header__search {
     display: flex;
 }
@@ -88,7 +92,7 @@
 
 nav {
   max-width: 1180px;  
-  height: 50px;
+  min-height: 50px;
   display: flex;
   align-items: center;
   background-color: #1abc9c;
@@ -101,10 +105,13 @@ nav {
 .header__menu {
     display: flex;
     justify-content: start;
-    height: 50px;
+    min-height: 50px;
     padding: 0;
     margin: 0;
-    
+}
+
+.header__menu_active {
+    display: flex;
 }
 
 .header__item {
@@ -129,15 +136,14 @@ nav {
 .header__link {
     text-decoration: none;
     color: #ffffff;
-    height: 100%;
-    line-height: 50px;
+    text-align: center;
 }
 
 .header__submenu {
     display: none;
     position: absolute;
     background-color: #16a085;
-    width: 150px;
+    width: 129px;
     height: 55px;
     padding: 0 10px;
     top: 50px;
@@ -150,15 +156,13 @@ nav {
 
 .header__item:hover .header__submenu {
     transition: all 1s;
-    display: block;
-    
+    display: flex;
 }
 
 .header__subitem {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    height: 100%;
 }
 
 .header__sublink {
@@ -171,6 +175,11 @@ nav {
 
 .header__sublink:hover {
     background-color: #1abc9c;
+}
+
+
+.hamburger {
+    display: none;
 }
 
 /* Triangle*/
