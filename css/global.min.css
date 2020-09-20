@@ -1,31 +1,28 @@
 .exchange__PSC {
-    text-align: center;
+    text-align: center
 }
 
 .exchange__types {
     margin: 13px 0;
     font-size: 16px;
     font-weight: 700;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif
 }
 
 .exchange__transactions {
-        border: 30px outset;
-        border-color: grey;
+    border: 30px outset;
+    border-color: grey
 }
-
-
-/*Form*/
 
 .form-exchange {
     display: flex;
     flex-direction: column;
-    margin: 1px;
+    margin: 1px
 }
 
 .form-exchange__text {
     height: 30px;
-    line-height: 30px;
+    line-height: 30px
 }
 
 .form-exchange__item {
@@ -35,7 +32,7 @@
     border: 1px solid;
     font-size: 13px;
     border: 1px inset #dbe1e8;
-    color: #999;
+    color: #999
 }
 
 .form-exchange__name {
@@ -43,22 +40,22 @@
     display: inline-block;
     min-width: 30%;
     height: 100%;
-    padding: 4px;
+    padding: 4px
 }
 
 .form-exchange__name span {
-    color: red;
+    color: red
 }
 
 .form-exchange__input {
     display: flex;
     justify-content: start;
     flex-wrap: wrap;
-    border-left: 0.5px inset #dbe1e8;
+    border-left: .5px inset #dbe1e8;
     padding: 4px;
     height: 100%;
     min-width: 70%;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif
 }
 
 .form-exchange__input input {
@@ -67,31 +64,31 @@
     border: 1px solid #dbe1e8;
     height: 30px;
     width: 63px;
-    outline: none;
+    outline: 0;
     padding: 0 8px;
-    margin: 1px;
+    margin: 1px
 }
 
 .form-exchange__input select {
     text-decoration: none;
     border: 1px solid #dbe1e8;
     height: 30px;
-    outline: none;
+    outline: 0;
     color: #999;
-    padding-left: 5px;
+    padding-left: 5px
 }
 
 .form-exchange__input img {
     display: block;
     height: 28px;
-    margin: 1px;
+    margin: 1px
 }
 
 .form-exchange__input span {
     color: #1e90ff;
     text-align: center;
     line-height: 30px;
-    margin-left: 3px;
+    margin-left: 3px
 }
 
 .form-exchange__input textarea {
@@ -100,62 +97,61 @@
     border: 1px solid #dbe1e8;
     height: 120px;
     width: 400px;
-    outline: none;
-    padding: 8px;
+    outline: 0;
+    padding: 8px
 }
 
 .form-exchange__img {
     display: flex;
     flex-wrap: wrap;
-    margin: 1px 0;
+    margin: 1px 0
 }
 
 .form-exchange__email {
-    width: 176px !important;
+    width: 176px !important
 }
 
 .form-exchange__wallet {
-    width: 176px !important;
+    width: 176px !important
 }
 
 .exmo_check {
-    width: 300px !important;
+    width: 300px !important
 }
 
 .exmo {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
     margin-top: 20px;
-    border: 1px solid grey;
-    
+    border: 1px solid grey
 }
 
 .exmo__item {
     border: 3px double grey;
     width: 50%;
     font-size: 13px;
-    line-height: 17px;
+    line-height: 17px
 }
 
 .exmo__title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin: 15px 0;
+    margin: 15px 0
 }
 
 .exmo__title img {
-    height: 56px;
+    height: 56px
 }
 
 .exmo__title span {
-    color: #0099cc;
+    color: #09c
 }
 
 .exmo__descrp {
     text-align: center;
-    margin: 15px 0;
+    margin: 15px 0
 }
 
 .form-exchange__button {
@@ -164,29 +160,29 @@
     align-items: center;
     height: 53px;
     padding: 2px;
-    border: 1px inset #dbe1e8;
+    border: 1px inset #dbe1e8
 }
 
 .form-exchange__wrapper {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .form-exchange__wrapper button {
     font-size: 11px;
     padding: 9px 11px;
-    border: none;
+    border: 0;
     font-weight: normal;
     cursor: pointer;
     background-color: #f27935;
     text-transform: uppercase;
     color: #ffff;
     width: auto;
-    outline: none;
+    outline: 0
 }
 
 .form-exchange__wrapper button:hover {
-    background-color: #1abc9c;
+    background-color: #1abc9c
 }
 
 .form-exchange__wrapper a {
@@ -194,31 +190,28 @@
     display: block;
     margin-left: 10px;
     text-decoration: none;
-    color: #1abc9c;
+    color: #1abc9c
 }
 
 .form-exchange__wrapper a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
-
-
-/*voucher*/
 
 .history {
     display: flex;
     justify-content: space-between;
     border: 1px solid;
     padding: 30px;
-    margin: 20px 0;
+    margin: 20px 0
 }
 
 .history__wrapper {
-    width: 65%;
+    width: 65%
 }
 
 .history_icon {
     height: 40px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
 .history__title {
@@ -227,327 +220,325 @@
     border: 1px solid;
     font-size: 18px;
     padding: 7px;
-    margin: 15px 0;
+    margin: 15px 0
 }
 
 .history__size {
-    width: 32%;
+    width: 32%
 }
 
 .history__information {
     border: 1px solid;
     font-size: 18px;
     padding: 10px;
-    height: 92%;
+    height: 92%
 }
 
 .history__switch {
     font-size: 14px;
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .history__item {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 15px 0;
+    margin: 15px 0
 }
 
 .history__item img {
     display: block;
     width: 35px;
     height: 35px;
-    margin: 1.5px;
+    margin: 1.5px
 }
 
 .history__descrp {
     font-size: 16px;
-    width: 100%;
+    width: 100%
 }
 
 .history__reserve {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .history__flex {
-    align-items: flex-start;
+    align-items: flex-start
 }
 
 .reserve_wrapper {
-    width: 100%;
+    width: 100%
 }
 
 .reserve_item {
-    justify-content: start;
+    justify-content: start
 }
 
 .paypal {
-    color: #0000ff;
+    color: #00f
 }
 
 .skrill {
-    color: #4b0082;
+    color: #4b0082
 }
 
 .webmoney {
-    color: #0066ff;
+    color: #06f
 }
 
 .perfectmoney {
-    color: #ff0000;
+    color: red
 }
 
 .bitcoin {
-    color: #ff6600;
+    color: #f60
 }
 
 .ethereum {
-    color: #333399;
+    color: #339
 }
 
 .litecoin {
-    color: #666699;
+    color: #669
 }
 
 .dogecoin {
-    color: #ffa500;
+    color: orange
 }
 
 .dash {
-    color: #0033ff;
+    color: #03f
 }
 
 .neteller {
-    color: #66cc66;
+    color: #6c6
 }
 
 .privat24 {
-    color: #339900;
+    color: #390
 }
 
 .notice {
     text-align: start;
-    color: #FFA07A;
-    margin: 55px 0;
+    color: #ffa07a;
+    margin: 55px 0
 }
 
 .voucher {
     font-size: 16px;
-    margin: 40px 0;
+    margin: 40px 0
 }
 
 .voucher iframe {
     width: 630px;
-    height: 360px;
+    height: 360px
 }
 
 .voucher a {
     text-decoration: none;
-    color: #1abc9c;
+    color: #1abc9c
 }
 
 .voucher a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .voucher__wrapper {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .voucher__wrapper img {
-    width: 250px;
+    width: 250px
 }
 
 .voucher__item {
     font-weight: 700;
-    margin: 5px 0;
+    margin: 5px 0
 }
 
 .voucher__descrp {
-    margin: 0 0 20px;
+    margin: 0 0 20px
 }
 
 .voucher__text {
-    text-align: start;
+    text-align: start
 }
 
 .attention {
     font-size: 16px;
-    font-family: 'Times New Roman',sans-serif;
-    color: #ff0000;
-    text-align: start;
+    font-family: 'Times New Roman', sans-serif;
+    color: red;
+    text-align: start
 }
 
 .attention__title {
     font-size: 16px;
-    font-weight: normal;
+    font-weight: normal
 }
 
 .attention__descrp span {
-    color: #000000;
+    color: #000
 }
 
 .attention__pay {
     text-align: center;
-    color: #800000;
-    margin: 10px 0;
+    color: maroon;
+    margin: 10px 0
 }
 
 .attention__key {
     color: #5e6d81;
-    margin: 15px 0 25px;
+    margin: 15px 0 25px
 }
 
 .attention__pay span {
-    color: #ff0000;
+    color: red
 }
 
 .attention__pay img {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto
 }
 
 .guarantee {
-    margin-top: 20px;
+    margin-top: 20px
 }
 
 .main__faq {
     display: flex;
     justify-content: space-around;
     margin-top: 25px;
-    font-size: 16px;
+    font-size: 16px
 }
 
 .main__contacts {
     font-family: Arial, sans-serif;
     font-weight: 700;
-    padding: 4px;
+    padding: 4px
 }
 
 .main__contacts span {
-    color: rgb(30, 144, 255);
-    font-weight: normal;
+    color: #1e90ff;
+    font-weight: normal
 }
 
 .main__icq span {
-    color: rgb(50, 205, 50);
+    color: #32cd32
 }
 
 .faq {
-    font-family: Tahoma;
+    font-family: Tahoma
 }
 
 .form-faq {
-    font-size: 13px;
+    font-size: 13px
 }
 
 .faq__input {
     flex-direction: column;
-    border-left: 0;
+    border-left: 0
 }
 
 .faq__input input {
     width: 400px;
-    margin: 0;
+    margin: 0
 }
 
 .faq__input select {
     width: 150px;
-    font-size: 13px;
+    font-size: 13px
 }
 
 .faq__name span {
-    color: red;
+    color: red
 }
 
 .faq__button {
-    margin-left: 4px;
+    margin-left: 4px
 }
-
-/*instruction list*/
 
 .instruction {
     text-align: center;
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 30px
 }
 
 .instruction__title {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: normal
 }
 
 .instruction a {
     color: #1abc9c;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .instruction a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .instruction img {
     display: block;
-    width: 620px;
+    width: 620px
 }
 
 .instruction__text {
-    text-align: start;
+    text-align: start
 }
 
 .instruction__text span {
-    color: #0066ff;
-    font-weight: 700;
+    color: #06f;
+    font-weight: 700
 }
 
 .comment {
-    font-size: 14px;
+    font-size: 14px
 }
 
 .comment a {
     color: #1abc9c;
-    text-decoration: none;
+    text-decoration: none
 }
+
 .comment a:hover {
     color: #1abc9c;
-    text-decoration: underline;
+    text-decoration: underline
 }
+
 .comment a {
     color: #1abc9c;
-    text-decoration: none;
+    text-decoration: none
 }
 
 .comment__title {
     display: flex;
     justify-content: space-between;
     font-size: 13px;
-    padding: 4px 0;
+    padding: 4px 0
 }
 
 .title__wrapper {
-    display: flex;
+    display: flex
 }
-
-/* a comment*/
 
 .comment__subtitle {
     display: flex;
     justify-content: space-between;
-    font-size: 13px;
+    font-size: 13px
 }
 
 .comment__displayed {
-    line-height: 19px;
+    line-height: 19px
 }
 
 .comment__pages {
     display: flex;
-    line-height: 19px;
+    line-height: 19px
 }
 
 .comment__pages a {
@@ -555,7 +546,7 @@
     color: #5e6d81;
     font-size: 11px;
     text-align: center;
-    line-height: 19px;
+    line-height: 19px
 }
 
 .page_active {
@@ -564,140 +555,138 @@
     min-width: 19px;
     height: 19px;
     margin: 0 2px;
-    color: #ffffff !important;
+    color: #fff !important;
     padding: 0 4px;
-    font-weight: 700;
+    font-weight: 700
 }
 
 .page_active:hover {
-    color: #ffffff;
-    text-decoration: none;
+    color: #fff;
+    text-decoration: none
 }
 
 .pages_center {
-    justify-content: center;
+    justify-content: center
 }
 
 .comment__messages {
-    margin: 20px 0 40px;
+    margin: 20px 0 40px
 }
 
 .message_title {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .title__wrapper {
-    display: flex;
+    display: flex
 }
 
 .comment__name {
-    margin-right: 15px;
+    margin-right: 15px
 }
 
 .comment__date {
     font-size: 9px;
-    line-height: 20px;
+    line-height: 20px
 }
 
 .comment__like {
     display: flex;
-    align-self: start;
+    align-self: start
 }
+
 .comment__like img {
     width: 13px;
     height: 13px;
-    margin: 2px;
+    margin: 2px
 }
 
 .like_sum {
     font-size: 11px;
     margin: 2px;
     font-weight: 700;
-    font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif
 }
 
 .comment__text {
-    margin: 15px 0;
+    margin: 15px 0
 }
 
 .comment__messages hr {
     border-bottom: 1px solid #dbe1e8;
-    border-top: 0;
+    border-top: 0
 }
 
 .comment__form {
     width: 100%;
-    margin-top: 40px;
+    margin-top: 40px
 }
 
 .form__comment {
     padding: 20px;
-    background-color: #dbe1e8;
-    
+    background-color: #dbe1e8
 }
 
 .form__item {
     display: flex;
     align-items: center;
     width: 100%;
-    margin: 10px 0;
+    margin: 10px 0
 }
 
 .form__item input {
     width: 100%;
     height: 30px;
-    outline: none;
-    border: none;
+    outline: 0;
+    border: 0;
     padding: 0 10px;
     font-family: Arial, sans-serif;
     font-size: 13px;
-    color: #999;
+    color: #999
 }
 
 .form__item textarea {
     width: 100%;
     height: 160px;
-    border: none;
+    border: 0;
     padding: 10px;
     font-family: Arial, sans-serif;
     font-size: 13px;
     color: #999;
-    outline: none;
+    outline: 0
 }
 
 .form__name {
-    width: 150px;
+    width: 150px
 }
 
 .form__button {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
-
-/*Registration*/
 
 .sign_up-title {
     font-size: 18px;
-    font-weight: normal;
+    font-weight: normal
 }
 
 .registration {
     display: flex;
-    font-size: 13px;
+    font-size: 13px
 }
 
 .registration__wrapper {
-    width: 350px;
+    width: 350px
 }
 
 .registration__subtitle {
-    margin-bottom: 15px;
+    margin-bottom: 15px
 }
 
 .registration__social {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap
 }
 
 .registration__link {
@@ -708,7 +697,7 @@
     font-weight: 400;
     text-decoration: none;
     font-size: 12px;
-    margin-bottom: 7px;
+    margin-bottom: 7px
 }
 
 .registration__icon {
@@ -718,33 +707,33 @@
     border-radius: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center
 }
 
 .registration__icon img {
     display: block;
     width: 20px;
-    height: 20px;
+    height: 20px
 }
 
 .registration__company {
-    margin: 0 10px;
+    margin: 0 10px
 }
 
 .ucoz {
-    border-color: #1E90FF;
+    border-color: #1e90ff
 }
 
 .ucoz img {
-    width: 14px;
+    width: 14px
 }
 
 .facebook {
-    border-color: #3b5998;
+    border-color: #3b5998
 }
 
 .google {
-    border-color: #000000;
+    border-color: #000
 }
 
 .registration__input {
@@ -752,86 +741,84 @@
     flex-direction: column;
     margin: 5px 0;
     color: #939fae;
-    max-width: 300px;
+    max-width: 300px
 }
 
 .registration__input input {
     width: 100%;
     height: 30px;
-    outline: none;
+    outline: 0;
     border: 1px solid #dbe1e8;
     color: #939fae;
     margin: 5px 0;
-    padding: 0 8px;
+    padding: 0 8px
 }
 
 .registration__check {
-    margin: 15px 0;
+    margin: 15px 0
 }
 
 .excellent__registration {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: center
 }
 
 .excellent__title {
     font-size: 18px;
     font-weight: normal;
-    margin: 6px;
+    margin: 6px
 }
 
 .excellent__subtitle {
-    font-size: 16px;
+    font-size: 16px
 }
 
 .excellent__text {
     width: 500px;
-    text-align: center;
+    text-align: center
 }
-
-/* Profile */
 
 .profile {
     padding: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .profile a {
     color: #1abc9c;
     text-decoration: none;
-    font-size: 13px;
+    font-size: 13px
 }
 
 .profile a:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .profile hr {
     margin: 15px 0;
     border-top: 0;
-    border-bottom: 1px solid #dbe1e8;
+    border-bottom: 1px solid #dbe1e8
 }
 
 .profile__header {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center
 }
 
 .profile__avatar {
     position: relative;
     width: 100px;
     height: 100px;
-    margin-bottom: 20px;
+    margin-bottom: 20px
 }
 
 .profile__avatar img {
     border-radius: 50%;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: cover
 }
 
 .profile__status {
@@ -839,124 +826,124 @@
     border-radius: 50%;
     width: 20px;
     height: 20px;
-    border: 3px solid #ffffff;
+    border: 3px solid #fff;
     right: 5px;
-    bottom: 5px;
+    bottom: 5px
 }
 
 .profile__online {
-    background-color: #2BD400;
+    background-color: #2bd400
 }
 
 .profile__offline {
-    background-color:#F74659;
+    background-color: #f74659
 }
 
 .profile__full-name {
-    margin-bottom: 7px;
+    margin-bottom: 7px
 }
 
 .profile__buttons {
     margin: 30px 0 15px;
-    display: flex;
+    display: flex
 }
 
 .profile__buttons a {
     display: block;
-    background-color: #EBEFF0;
-    color: #27292C;
+    background-color: #ebeff0;
+    color: #27292c;
     font-size: 11px;
-    border: 1px solid #D5D9DB;
+    border: 1px solid #d5d9db;
     border-radius: 20px;
     padding: 6px 14px 7px;
-    margin: 8px;
+    margin: 8px
 }
 
 .profile__buttons a:hover {
     text-decoration: none;
-    background-color: #D5D9DB;
+    background-color: #d5d9db
 }
 
 .profile__subtitle {
     font-size: 18px;
     font-weight: normal;
-    margin: 20px 0;
+    margin: 20px 0
 }
 
 .profile__section {
     font-size: 13px;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .profile__string {
     display: flex;
-    margin: 7px 0;
+    margin: 7px 0
 }
 
 .string__name {
-    width: 160px;
+    width: 160px
 }
 
 .string__content {
-    height: 10px;
+    height: 10px
 }
 
 .string__content img {
     height: 100%;
-    margin: 0 3px;
+    margin: 0 3px
 }
 
 .profile__social {
     display: flex;
     justify-content: start;
-    margin-bottom: 40px;
+    margin-bottom: 40px
 }
 
 .profile__link {
-    margin-right: 5px;
+    margin-right: 5px
 }
 
 .profile__icon {
     width: 26px;
-    height: 26px;
+    height: 26px
 }
 
 .profile__icon img {
-    height: 15px;
+    height: 15px
 }
 
 .profile__search {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .form-search {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .profile__input input {
     max-width: 240px;
     margin: 0 3px;
     font-size: 13px;
-    text-align: center;
+    text-align: center
 }
 
 .profile__input input::-webkit-input-placeholder {
-    color: #dbe1e8;
+    color: #dbe1e8
 }
 
 .profile__input input::-moz-placeholder {
-    color: #dbe1e8;
+    color: #dbe1e8
 }
 
 .edit__form {
-    font-size: 13px;
+    font-size: 13px
 }
 
 .edit__item {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .edit__item textarea {
@@ -964,32 +951,31 @@
     height: 76px;
     color: #999;
     border: 1px solid #dbe1e8;
-    outline: none;
-    padding: 8px;
+    outline: 0;
+    padding: 8px
 }
 
 .edit__item select {
     height: 30px;
     color: #999;
     border: 1px solid #dbe1e8;
-    outline: none;
+    outline: 0
 }
 
 .edit__name {
     display: flex;
     align-items: center;
     font-size: 13px;
-    min-width: 235px;
-    
+    min-width: 235px
 }
 
 .red {
     color: #fd4339;
-    font-weight: normal;
+    font-weight: normal
 }
 
 .edit__content span {
-    font-weight: 700;
+    font-weight: 700
 }
 
 .edit__input {
@@ -997,81 +983,75 @@
     height: 30px;
     color: #999;
     border: 1px solid #dbe1e8;
-    outline: none;
-    padding: 0 8px;
+    outline: 0;
+    padding: 0 8px
 }
 
 .edit__content {
-    margin: 2px 0;
+    margin: 2px 0
 }
 
 .edit__checkbox {
-    text-align: center;
+    text-align: center
 }
 
 .edit__checked {
     margin: 5px 8px 5px 0;
-    color: #939fae;
+    color: #939fae
 }
-
-/*Accept private messages  - Button_click*/
 
 #hider {
     position: absolute;
     top: -9999px;
-    left: -9999px;
+    left: -9999px
 }
 
 #hider:checked+.edit__groups {
-    display: block;
+    display: block
 }
 
 .edit__link {
     text-decoration: none;
     color: #1abc9c;
-    cursor: pointer;
+    cursor: pointer
 }
 
 .edit__link:hover {
-    text-decoration: underline;
+    text-decoration: underline
 }
 
 .edit__groups {
     margin-top: 10px;
     display: none;
-    text-align: start;
+    text-align: start
 }
 
 .edit__button {
-    justify-content: center;
+    justify-content: center
 }
 
-
-/*  mail profile*/
-
 .profile__mail {
-   font-family: Tahoma, Geneva, sans-serif;
-   font-size: 13px;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px
 }
 
 .mail__header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
- 
+    align-items: center
 }
 
 .mail__menu {
     display: flex;
-    align-items: center;
+    align-items: center
 }
 
 .mail__menu a {
-    margin: 0 2px;
+    margin: 0 2px
 }
 
 .mail__menu span {
-    font-weight: 700;
+    font-weight: 700
 }
 
 .mail__informer {
@@ -1081,7 +1061,7 @@
     background: #eee;
     border: 1px solid #bbb;
     cursor: help;
-    border-radius: 2px;
+    border-radius: 2px
 }
 
 .mail__indication {
@@ -1089,321 +1069,314 @@
     content: "";
     width: 1%;
     height: 11px;
-    background-color: #51b5ea;
+    background-color: #51b5ea
 }
 
 .mail__messages {
-    text-align: center;
+    text-align: center
 }
-
-/*Send messages*/
 
 .mail__form {
     font-size: 13px;
-    text-align: start;
+    text-align: start
 }
 
 .mail__item {
     display: flex;
     justify-content: start;
-    margin: 5px 0;
+    margin: 5px 0
 }
 
 .mail__item textarea {
-    height: 135px;
+    height: 135px
 }
 
 .mail__name {
-    min-width: 150px;
+    min-width: 150px
 }
 
 .mail__wrapper {
-    width: 100%;
+    width: 100%
 }
 
 .mail__recipient input {
-    width: 250px;
+    width: 250px
 }
 
 .mail__wrapper-buttons {
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
-
-/*Users profile*/
 
 .profile__users {
     font-size: 13px;
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: Tahoma, Geneva, sans-serif
 }
 
 .users_found {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .users__pages {
-    display: flex;
+    display: flex
 }
 
 .users__pages a {
-    margin: 0 2px;
+    margin: 0 2px
 }
 
 .users_pages-active {
     color: #5e6d81 !important;
-    font-weight: 700;
+    font-weight: 700
 }
 
 .users__subtitle {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
 .users__subtitle div {
-    font-weight: 700;
+    font-weight: 700
 }
 
 .users__users {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between
 }
 
 .users__avatar {
     width: 43px;
     display: flex;
-    justify-content: center;
+    justify-content: center
 }
 
 .users__avatar img {
     width: 16px;
-    height: 16px;
+    height: 16px
 }
 
 .users__group {
-    width: 40px;
+    width: 40px
 }
 
 .users__registration {
     width: 113px;
-    text-align: center;
+    text-align: center
 }
 
 .users__messages {
     width: 63px;
-    text-align: center;
+    text-align: center
 }
 
 .users__search {
-    font-size: 13px;
+    font-size: 13px
 }
 
 .users__input {
-    width: 92px;
+    width: 92px
 }
 
 .users__item {
-    margin: 0 2px;
+    margin: 0 2px
 }
 
 .users__item select {
-    padding: 0 5px;
+    padding: 0 5px
 }
 
-
-/*adaptive*/
-
-@media (max-width: 991px) {
+@media(max-width:991px) {
     .container {
         max-width: 1011px;
-        padding: 0;
+        padding: 0
     }
 
     .triangle_left::after {
-        display: none;
+        display: none
     }
 
     .triangle_right::after {
-        display: none;
+        display: none
     }
 
     .sideline_Right {
-        display: none;
+        display: none
     }
 
     .sideline_Left {
-        display: none;
+        display: none
     }
 
     .header {
-        min-height: 170px;
+        min-height: 170px
     }
 
     .header__logo {
-        min-height: 100px;
+        min-height: 100px
     }
 
     .header__item {
         padding: 0 12px;
-        text-align: center;
+        text-align: center
     }
 
     .header__item:active .header__submenu {
         transition: all 1s;
-        display: flex;
+        display: flex
     }
 
     .overview__wrapper {
-        padding: 10px 10px 25px 10px;
+        padding: 10px 10px 25px 10px
     }
 
     .overview__title {
-        font-size: 16px;
+        font-size: 16px
     }
 
     .overview__descrp {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .slick-dots {
-        bottom: -3%;
+        bottom: -3%
     }
 
     .exchange__direction {
         font-size: 14px;
-        padding: 20px 0;
+        padding: 20px 0
     }
 
     .exchange__types {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .exchange__transactions {
         border: 10px outset;
-        border-color: grey;
+        border-color: grey
     }
 
     .instruction img {
-        width: 480px;
+        width: 480px
     }
 
     .instruction {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .instruction__title {
-        font-size: 16px;
+        font-size: 16px
     }
 
     .form-exchange iframe {
-        width: 100%;
+        width: 100%
     }
 
     .sidebar__title {
-        font-size: 16px;
+        font-size: 16px
     }
 
     .sidebar__descrp {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .sidebar__main {
-        padding: 10px 0;
+        padding: 10px 0
     }
 
     .variation {
         margin: 0 10px;
-        padding: 10px;
+        padding: 10px
     }
 
     .variation__item {
-        width: 170px;
+        width: 170px
     }
 
     .history {
-        flex-direction: column;
+        flex-direction: column
     }
 
     .history__wrapper {
-        width: 100%;
+        width: 100%
     }
 
     .history__title {
-        font-size: 16px;
+        font-size: 16px
     }
 
     .history__descrp {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .notice {
         text-align: center;
-        font-size: 14px;
+        font-size: 14px
     }
 
     .voucher {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .voucher iframe {
-        width: 100%;
+        width: 100%
     }
 
     .attention {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .exmo {
-        flex-direction: column;
+        flex-direction: column
     }
 
     .exmo__item {
-        width: 100%;
+        width: 100%
     }
 
     .guarantee {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .main__faq {
-        flex-direction: column;
+        flex-direction: column
     }
 
     .main__contacts {
-        margin-bottom: 30px;
+        margin-bottom: 30px
     }
 
     .edit__name {
-        min-width: 150px;
+        min-width: 150px
     }
 
     .users__search {
-        font-size: 10px;
+        font-size: 10px
     }
 
     .comment {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .footer__wrapper {
-        padding: 20px;
+        padding: 20px
     }
 
     .sign_up-title {
-        font-size: 16px;
+        font-size: 16px
     }
- 
+
     .excellent__title {
-        font-size: 16px;
+        font-size: 16px
     }
 
     .excellent__subtitle {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .profile__subtitle {
-        font-size: 16px;
+        font-size: 16px
     }
 
     .mail__item-wrapper .g-recaptcha {
@@ -1411,26 +1384,25 @@
         transform: scale(.97);
         -webkit-transform: scale(.97);
         transform-origin: 0 0;
-        -webkit-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0
     }
 }
 
-
-@media (max-width: 767px) {
+@media(max-width:767px) {
     .header {
-        min-height: 150px;
+        min-height: 150px
     }
 
     .header input {
-        width: 220px;
+        width: 220px
     }
-    
+
     .header__logo {
-        min-height: 80px;
+        min-height: 80px
     }
 
     nav {
-        font-size: 10px;
+        font-size: 10px
     }
 
     .header__submenu {
@@ -1439,166 +1411,166 @@
     }
 
     .overview__title {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .slick-dots {
-        bottom: -4.5%;
+        bottom: -4.5%
     }
 
     .content {
-        flex-direction: column;
+        flex-direction: column
     }
 
     .main__content {
         padding: 20px;
-        margin-right: 0;
+        margin-right: 0
     }
 
     .variation__item {
-        width: 150px;
+        width: 150px
     }
 
     .sidebar__content {
-        margin-left: 0;
+        margin-left: 0
     }
 
     .sidebar__title {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .footer__wrapper {
-        justify-content: center;
+        justify-content: center
     }
 
     .form-exchange__item {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .instruction {
-        margin-top: 0;
+        margin-top: 0
     }
 
     .instruction__title {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .history__title {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .exmo__item {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .exmo__title {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .main__faq {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .main__contacts {
-        margin-bottom: 20px;
+        margin-bottom: 20px
     }
 
     .comment {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .comment__messages {
-        margin: 20px 0 25px;
+        margin: 20px 0 25px
     }
 
     .sign_up-title {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .excellent__title {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .excellent__subtitle {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .profile__section {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .profile__mail {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .profile__users {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .profile__full-name {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .profile__subtitle {
-        font-size: 15px;
+        font-size: 15px
     }
 
     .edit__form {
-        font-size: 12px;
+        font-size: 12px
     }
 }
 
-@media (max-width: 575px) {
+@media(max-width:575px) {
     .container {
-        margin: 0;
+        margin: 0
     }
 
     .header {
-        min-height: 95px;
+        min-height: 95px
     }
 
     .header__search {
-        display: none;
+        display: none
     }
 
     .header__logo {
         justify-content: center;
-        min-height: 50px;
+        min-height: 50px
     }
 
     .header__img {
-        width: 180px;
+        width: 180px
     }
 
     .header__ticker {
-        height: 18px;
+        height: 18px
     }
 
     .header__ticker span {
-        font-size: 9px;
+        font-size: 9px
     }
 
     .header__menu {
         display: none;
         flex-direction: column;
-        width: 180%;
+        width: 180%
     }
 
     .header__item {
         width: 100%;
         margin: 0 0 5px 2px;
         padding: 5px;
-        border-bottom: 1px solid #ffffff;
+        border-bottom: 1px solid #fff
     }
 
     .header__menu_active {
-        display: flex;
+        display: flex
     }
 
     .header__add {
         display: flex;
         align-items: start;
-        flex-direction: column;
+        flex-direction: column
     }
 
     .header__submenu {
@@ -1608,13 +1580,13 @@
         width: 100%;
         height: 100%;
         font-size: 8px;
-        transition: none;
+        transition: none
     }
 
     nav {
         min-height: 30px;
         padding: 10px;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .hamburger {
@@ -1624,109 +1596,109 @@
         z-index: 10;
         position: absolute;
         top: 9px;
-        right: 15px;
+        right: 15px
     }
 
     .hamburger span {
         display: block;
         height: 3px;
         width: 100%;
-        background-color: #ffffff;
+        background-color: #fff;
         margin-bottom: 3px;
-        transition: 0.3s all;
+        transition: .3s all
     }
 
     .hamburger_active span {
-        margin-bottom: -3px;
+        margin-bottom: -3px
     }
 
     .hamburger_active span:nth-child(1) {
-        transform: translateY(3px) rotate(-45deg);
+        transform: translateY(3px) rotate(-45deg)
     }
 
     .hamburger_active span:nth-child(2) {
-        display: none;
+        display: none
     }
 
     .hamburger_active span:nth-child(3) {
-        transform: translateY(3px) rotate(45deg);
+        transform: translateY(3px) rotate(45deg)
     }
 
     .carousel {
-        margin-bottom: 10px;
+        margin-bottom: 10px
     }
 
     .overview__wrapper {
-        padding: 2px;
+        padding: 2px
     }
 
     .overview__title {
         margin-bottom: 5px;
-        font-size: 14px;
+        font-size: 14px
     }
 
     .overview__descrp {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .slick-dots button {
         width: 6px;
-        height: 6px;
+        height: 6px
     }
 
     .slick-dots {
-        bottom: -15px;
+        bottom: -15px
     }
 
     .main__content {
-        padding: 10px;
+        padding: 10px
     }
 
     .exchange__direction {
         font-size: 13px;
-        padding: 10px 0;
+        padding: 10px 0
     }
 
     .variation {
-        padding: 5px;
+        padding: 5px
     }
 
     .variation__title {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .variation__item {
-        width: 90px;
+        width: 90px
     }
 
     .sidebar__title {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .sidebar__descrp {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .exchange__types {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .form-exchange__item {
         flex-direction: column;
-        padding: 5px 0;
+        padding: 5px 0
     }
 
     .form-exchange__input {
         justify-content: center;
-        border-left: 0;
+        border-left: 0
     }
 
     .form-exchange__input input {
-        width: 59px;
+        width: 59px
     }
 
     .form-exchange__img {
-        justify-content: center;
+        justify-content: center
     }
 
     .g-recaptcha {
@@ -1734,102 +1706,102 @@
         transform: scale(.79);
         -webkit-transform: scale(.79);
         transform-origin: 0 0;
-        -webkit-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0
     }
 
     .instruction img {
-        width: 300px;
+        width: 300px
     }
 
     .instruction {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .instruction__title {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .history {
-        padding: 5px;
+        padding: 5px
     }
 
     .history__title {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .history__descrp {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .notice {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .voucher {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .voucher iframe {
-        height: 250px;
+        height: 250px
     }
 
     .voucher__wrapper img {
-        width: 190px;
+        width: 190px
     }
 
     .attention {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .exmo_check {
-        width: 176px !important;
+        width: 176px !important
     }
 
     .exmo__item {
         padding: 5px;
-        font-size: 13px;
+        font-size: 13px
     }
 
     .exmo__title {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .form-exchange__name {
-        text-align: center;
+        text-align: center
     }
 
     .form-exchange__text {
         height: 100%;
-        word-break: break-all;
+        word-break: break-all
     }
 
     .guarantee {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .comment {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .form__comment {
         padding: 10px;
-        margin-top: 10px;
+        margin-top: 10px
     }
 
     .form__item textarea {
-        height: 100px;
+        height: 100px
     }
 
     .comment__subtitle {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .comment__text {
-        margin: 10px 0;
+        margin: 10px 0
     }
 
     .comment__item-wrapper {
-        padding: 10px 0;
+        padding: 10px 0
     }
 
     .comment__item-wrapper .g-recaptcha {
@@ -1837,107 +1809,107 @@
         transform: scale(.65);
         -webkit-transform: scale(.65);
         transform-origin: 0 0;
-        -webkit-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0
     }
 
     .sign_up-title {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .sidebar__authorization {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .main__faq {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .form-faq {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .faq__input input {
-        width: 100%;
+        width: 100%
     }
 
     .faq__input textarea {
         width: 100%;
-        height: 70px;
+        height: 70px
     }
 
     .registration {
         flex-direction: column;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .registration__wrapper {
-        width: 100%;
+        width: 100%
     }
 
     .registration__input {
-        max-width: 260px;
+        max-width: 260px
     }
 
     .excellent__title {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .excellent__subtitle {
-        font-size: 13px;
+        font-size: 13px
     }
 
     .excellent__text {
-        width: 260px;
+        width: 260px
     }
 
     .profile {
-        padding: 5px;
+        padding: 5px
     }
 
     .profile a {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .profile__full-name {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .profile__subtitle {
-        font-size: 14px;
+        font-size: 14px
     }
 
     .string__name {
-        width: 100px;
+        width: 100px
     }
 
     .form-exchange__wrapper button {
         font-size: 9px;
-        padding: 5px 10px;
+        padding: 5px 10px
     }
 
     .edit__item {
         flex-direction: column;
-        align-items: start;
+        align-items: start
     }
 
     .edit__checkbox {
-        text-align: start;
+        text-align: start
     }
 
     .edit__name {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .mail__informer {
-        width: 50px;
+        width: 50px
     }
 
     .mail__menu a {
-        font-size: 10px;
+        font-size: 10px
     }
 
     .mail__name {
-        min-width: 85px;
+        min-width: 85px
     }
 
     .mail__item-wrapper {
@@ -1945,65 +1917,64 @@
         transform: scale(.65);
         -webkit-transform: scale(.65);
         transform-origin: 0 0;
-        -webkit-transform-origin: 0 0;
+        -webkit-transform-origin: 0 0
     }
 
     .form__user {
         flex-direction: column;
         width: 50%;
-        font-size: 12px;
+        font-size: 12px
     }
 
     .users__subtitle {
-        font-size: 9px;
+        font-size: 9px
     }
 
     .form__user select {
         width: 100%;
-        margin: 2px 0;
+        margin: 2px 0
     }
 
     .users__username {
         display: flex;
         flex-wrap: wrap;
         align-items: center;
-        min-width: 40px;
+        min-width: 40px
     }
 
     .users__username a {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .users__input {
-        width: 98%;
+        width: 98%
     }
 
     .users__table {
-        font-size: 12px;
+        font-size: 12px
     }
 
     .users__avatar {
-        width: 16px;
+        width: 16px
     }
 
     .users__rank img {
-        width: 30px;
+        width: 30px
     }
 
     .users__group {
-        width: 30px;
+        width: 30px
     }
 
     .users__registration {
-        width: 85px;
+        width: 85px
     }
 
     .users__messages {
-        width: 38px;
+        width: 38px
     }
 
     .profile__input input {
-        margin: 0;
+        margin: 0
     }
 }
-    

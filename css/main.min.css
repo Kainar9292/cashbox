@@ -115,25 +115,25 @@ body {
     bottom: -1%;
     right: 50%;
     transform: translateX(50%);
-    
+
 }
 
 .slick-dots button {
-        /* margin-top: 20px; */
-        font-size: 0;
-        padding: 0;
-        width: 11px;
-        height: 11px;
-        border-radius: 100%;
-        border: none;
-        outline: none;
-        background-color: #ffffff;
-        cursor: pointer;
+    /* margin-top: 20px; */
+    font-size: 0;
+    padding: 0;
+    width: 11px;
+    height: 11px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    cursor: pointer;
 }
 
 .slick-dots li {
-        list-style-type: none;
-        margin: 0 6px;
+    list-style-type: none;
+    margin: 0 6px;
 }
 
 .slick-active button {
@@ -202,6 +202,7 @@ body {
     text-decoration: none;
     color: #1abc9c;
 }
+
 .exchange__paysafecard:hover {
     text-decoration: underline;
     color: #1abc9c;
@@ -288,7 +289,7 @@ body {
     height: 100%;
     object-fit: cover;
     border: 1px solid #dbe1e8;
-    
+
 }
 
 .sidebar__welcome {
@@ -321,6 +322,7 @@ body {
     color: #1abc9c;
     text-decoration: none;
 }
+
 .sidebar__authorization a:hover {
     text-decoration: underline;
 }
@@ -378,7 +380,3 @@ body {
     border-bottom: 1px solid #dbe1e8;
     background-color: rgb(219, 225, 232);
 }
-
-
-
-
